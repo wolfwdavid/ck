@@ -1,0 +1,18 @@
+[
+  { "physicalPage": 1, "printedPage": null, "section": "Front Matter", "type": "cover",
+    "content": { "title": "Vegan Not Vegan", "subtitle": "A Guide Book", "image": "citrusTexture" } },
+  { "physicalPage": 4, "printedPage": null, "section": "Layer One: The Truth", "type": "divider",
+    "content": { "title": "Layer One: The Truth" } },
+  { "physicalPage": 5, "printedPage": "1", "section": "Layer One: The Truth", "type": "essay",
+    "content": { "heading": null, "paragraphs": ["SMOKE TEST PLACEHOLDER — this will be replaced by real extracted content."], "image": null, "pullquote": null, "cta": null } },
+  { "physicalPage": 23, "printedPage": "18", "section": "Layer Three: Switcharoozies", "type": "recipe",
+    "content": { "title": "Milk", "intro": "Placeholder intro.", "variants": [ { "name": "Oat Milk (Easiest)", "ingredients": ["1 cup rolled oats", "4 cups cold water", "pinch of salt"], "steps": ["Blend 20-30 seconds.", "Strain.", "Fridge up to 5 days."], "tips": "Don't overblend or it goes slimy." } ] } },
+  { "physicalPage": 55, "printedPage": "49", "section": "A-Z New Pantry Additions", "type": "pantry-letter",
+    "content": { "letter": "A", "item": "Aquafaba", "uses": ["Egg white substitute", "Meringue"], "shopLink": { "label": "Shop Aquafaba", "url": null } } },
+  { "physicalPage": 84, "printedPage": "79", "section": "Vitamin B12", "type": "table",
+    "content": { "title": "Plant Sources of Key Nutrients", "headers": ["Nutrient", "Plant Source"], "rows": [["B12", "Fortified nutritional yeast"], ["Iron", "Lentils, spinach"]] } },
+  { "physicalPage": 92, "printedPage": "87", "section": "Worksheet", "type": "worksheet",
+    "content": { "title": "Your Last...", "prompts": ["Meal as a meat-eater.", "Dairy product you miss.", "Reason you started.", "Person who inspired you.", "Hardest swap.", "Easiest swap.", "Thing you tell skeptics.", "Promise to yourself."] } },
+  { "physicalPage": 94, "printedPage": "89", "section": "Closing", "type": "closing",
+    "content": { "text": "Thank you for reading." } }
+]

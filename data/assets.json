@@ -1,0 +1,8 @@
+{
+  "citrusTexture": "images/citrus-texture.jpg",
+  "paperTexture": "images/paper-texture.png",
+  "essayCollageP7": "images/essay-collage-p7.png",
+  "authorSelfie": "images/author-selfie.jpg",
+  "authorPerformance": "images/author-performance.jpg",
+  "_notes": "Page 14's abstract triangle/line-art graphic has no embedded raster image (confirmed via PyMuPDF extraction) — it's vector linework, recreated directly as inline SVG in templates.js rather than extracted as an asset. The two B12 Amazon product screenshots (p.83) were intentionally not extracted/used — rebuilt as clean custom cards per the approved plan instead of raw low-res screenshots."
+}

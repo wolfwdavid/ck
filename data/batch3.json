@@ -1,0 +1,383 @@
+[
+  {
+    "physicalPage": 54,
+    "printedPage": "48",
+    "section": "A-Z New Pantry Additions",
+    "type": "essay",
+    "content": {
+      "heading": "A-Z New Pantry Additions",
+      "paragraphs": [
+        "Now that you’ve swapped out some (if not all) of your condiments, sauces, and bases (milk, eggs, butter), let's look at some pantry additions you can start acquiring.",
+        "Don’t feel like you have to buy ALL of these at once. Move slowly and start with the ones that call out to you. There are also great websites that offer recipes to help with this transition.",
+        "Please refer to page 80 for recipes.",
+        "I made this guide to make this transition as convenient as possible, including how much it costs.",
+        "To support me, you can click on the Amazon links that I have included below as recommended products to aid in your transition. As an Amazon Associate, I earn from qualifying purchases, which helps fund future e-book guides and research."
+      ],
+      "image": null,
+      "pullquote": null,
+      "cta": null
+    }
+  },
+  {
+    "physicalPage": 55,
+    "printedPage": "49",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "A",
+      "item": "Alfalfa Sprouts",
+      "intro": "Try it in:",
+      "uses": ["sandwiches", "salads", "wraps", "noodle bowls", "avocado toast", "veggie burgers"],
+      "tip": "Add alfalfa sprouts at the end of cooking to keep them fresh and crunchy.",
+      "shopLink": {"label": "Shop Alfalfa Sprouts", "url": "https://amzn.to/3SFvhgb"}
+    }
+  },
+  {
+    "physicalPage": 56,
+    "printedPage": "50",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "B",
+      "item": "Beans + Black Salt",
+      "intro": "Stock:",
+      "uses": ["Chickpeas", "Black beans", "Kidney beans", "Cannellini beans", "Lentils", "Pinto beans"],
+      "note": "Protein + fiber foundation.",
+      "also": ["Black Salt"],
+      "shopLink": {"label": "Shop Blacksalt", "url": "https://amzn.to/3UnOyTU"}
+    }
+  },
+  {
+    "physicalPage": 57,
+    "printedPage": "51",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "C",
+      "item": "Cashews",
+      "description": "The vegan “cream maker.”",
+      "intro": "Use for:",
+      "uses": ["cream cheese", "sour cream", "Alfredo sauce", "cheesecake", "aioli"],
+      "also": ["Coconut milk", "Cacao", "Chia seeds"],
+      "shopLink": {"label": "Shop Cashews", "url": "https://amzn.to/4x5dRaY"}
+    }
+  },
+  {
+    "physicalPage": 58,
+    "printedPage": "52",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "D",
+      "item": "Dates",
+      "intro": "Natural sweetener:",
+      "uses": ["caramel sauces", "energy balls", "smoothies", "desserts"],
+      "also": ["Dulse flakes (ocean umami)"],
+      "shopLink": {"label": "Shop Dates", "url": "https://amzn.to/4iDnry4"}
+    }
+  },
+  {
+    "physicalPage": 59,
+    "printedPage": "53",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "E",
+      "item": "Edamame",
+      "intro": "High-protein soybeans:",
+      "uses": ["bowls", "salads", "stir fries", "snacks"],
+      "shopLink": {"label": "Shop Edamame", "url": "https://amzn.to/3UBRwEg"}
+    }
+  },
+  {
+    "physicalPage": 60,
+    "printedPage": "54",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "F",
+      "item": "Flaxseed",
+      "intro": "A vegan essential:",
+      "uses": ["omega-3s", "fiber", "egg replacement (“flax egg”)"],
+      "shopLink": {"label": "Shop Flaxseed", "url": "https://amzn.to/4qRBqSR"}
+    }
+  },
+  {
+    "physicalPage": 61,
+    "printedPage": "55",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "G",
+      "item": "Gochujang",
+      "intro": "Use it for:",
+      "uses": ["Tofu marinades", "Roasted vegetables", "Noodles", "Stir-fries", "Rice bowls", "Dumpling sauces"],
+      "shopLink": {"label": "Shop Gochujang", "url": "https://amzn.to/4d0h0l1"}
+    }
+  },
+  {
+    "physicalPage": 62,
+    "printedPage": "56",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "H",
+      "item": "Hemp Hearts",
+      "intro": "Nutrient powerhouse:",
+      "uses": ["complete protein", "omega-3 fats", "smoothies", "oatmeal", "sauces"],
+      "shopLink": {"label": "Shop Hemp Hearts", "url": "https://amzn.to/4ymppaW"}
+    }
+  },
+  {
+    "physicalPage": 63,
+    "printedPage": "57",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "I",
+      "item": "Injera",
+      "description": "Injera — Ethiopian fermented flatbread, traditionally vegan",
+      "uses": [],
+      "shopLink": {"label": "Shop Injera", "url": "https://amzn.to/4djSRWH"}
+    }
+  },
+  {
+    "physicalPage": 64,
+    "printedPage": "58",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "J",
+      "item": "Jackfruit",
+      "intro": "Great texture for:",
+      "uses": ["pulled “pork”", "tacos", "BBQ sandwiches"],
+      "note": "(Low protein, so pair with beans/tofu.)",
+      "shopLink": {"label": "Shop Jackfruit", "url": "https://amzn.to/3Ta08BC"}
+    }
+  },
+  {
+    "physicalPage": 65,
+    "printedPage": "59",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "K",
+      "item": "Kombu",
+      "intro": "A sea vegetable used for:",
+      "uses": ["minerals", "adding umami to beans and soups"],
+      "shopLink": {"label": "Shop Kombu", "url": "https://amzn.to/3UBPeFa"}
+    }
+  },
+  {
+    "physicalPage": 66,
+    "printedPage": "61",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "L",
+      "item": "Legumes",
+      "intro": "Beyond beans:",
+      "uses": ["lentils", "split peas", "chickpeas", "lupini beans"],
+      "shopLink": {"label": "Shop Lentils", "url": "https://amzn.to/4h7L1BP"}
+    }
+  },
+  {
+    "physicalPage": 67,
+    "printedPage": "62",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "M",
+      "item": "Miso",
+      "intro": "Fermented soybean paste:",
+      "uses": ["soups", "sauces", "marinades", "Caesar dressing", "cheese flavor"],
+      "also": ["Mushrooms", "Molasses (iron-rich sweetener)"],
+      "shopLink": {"label": "Shop Miso", "url": "https://amzn.to/4ckl6UY"}
+    }
+  },
+  {
+    "physicalPage": 68,
+    "printedPage": "63",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "N",
+      "item": "Nori",
+      "description": "Edible seaweed used in sushi, wraps, and snacks",
+      "uses": [],
+      "shopLink": {"label": "Shop Nori", "url": "https://amzn.to/4ygue5l"}
+    }
+  },
+  {
+    "physicalPage": 69,
+    "printedPage": "64",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "O",
+      "item": "Oils + Oats",
+      "intro": "Choose:",
+      "uses": ["Extra virgin olive oil", "Avocado oil", "Sesame oil"],
+      "also": ["Oats (breakfast staple)"],
+      "shopLink": {"label": "Shop Oats", "url": "https://amzn.to/4xTlX7T"}
+    }
+  },
+  {
+    "physicalPage": 70,
+    "printedPage": "65",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "P",
+      "item": "Pickled Protein",
+      "intro": "Keep:",
+      "uses": ["Tofu", "Tempeh", "Seitan", "Textured vegetable protein (TVP)"],
+      "also": ["Pumpkin seeds", "Psyllium husk"],
+      "shopLink": {"label": null, "url": null},
+      "additionalItem": {
+        "item": "Pickled + Fermented Flavor Boosters",
+        "intro": "These are the “secret weapons”:",
+        "uses": ["Sauerkraut", "Pickled onions", "Pickled jalapeños", "Kimchi (vegan)", "Fermented hot sauce", "Preserved lemons", "Capers", "Olives"]
+      }
+    }
+  },
+  {
+    "physicalPage": 71,
+    "printedPage": "66",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "Q",
+      "item": "Quinoa",
+      "intro": "Complete protein grain:",
+      "uses": ["bowls", "salads", "breakfast porridge"],
+      "shopLink": {"label": "Shop Quinoa", "url": "https://amzn.to/4iDfw3O"}
+    }
+  },
+  {
+    "physicalPage": 72,
+    "printedPage": "67",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "R",
+      "item": "Rutabaga",
+      "description": "Rutabaga — earthy, slightly sweet root vegetable",
+      "uses": [],
+      "shopLink": {"label": "Shop Rutabaga", "url": "https://amzn.to/4gGBZuc"}
+    }
+  },
+  {
+    "physicalPage": 73,
+    "printedPage": "68",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "S",
+      "item": "Seeds",
+      "uses": ["Chia", "Flax", "Pumpkin", "Sunflower"],
+      "shopLinks": [
+        {"label": "Shop Chia Seeds", "url": "https://amzn.to/4xzM1Vb"},
+        {"label": "Shop Flax Seeds", "url": "https://amzn.to/4xzxMzz"},
+        {"label": "Shop Pumpkin Seeds", "url": "https://amzn.to/4zNJQz3"},
+        {"label": "Shop Sunflower Seeds", "url": "https://amzn.to/4gLdf3Q"}
+      ]
+    }
+  },
+  {
+    "physicalPage": 74,
+    "printedPage": "69",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "T",
+      "item": "Tahini",
+      "intro": "Sesame paste:",
+      "uses": ["hummus", "dressings", "sauces", "desserts"],
+      "shopLink": {"label": "Shop Tahini", "url": "https://amzn.to/4qSbbf5"}
+    }
+  },
+  {
+    "physicalPage": 75,
+    "printedPage": "70",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "U",
+      "item": "Umibudo",
+      "description": "Umibudō (海ぶどう), meaning “sea grapes,” is a type of edible green seaweed traditionally enjoyed in Okinawan and Japanese cuisine. It gets its nickname from its tiny, translucent, grape-like bubbles that pop pleasantly in your mouth",
+      "uses": ["salads", "rice bowls", "sushi", "dipping sauces", "poke bowls"],
+      "also": ["Sea grapes / edible seaweed"],
+      "shopLink": {"label": "Shop Umibudo", "url": "https://amzn.to/4xA9N3k"}
+    }
+  },
+  {
+    "physicalPage": 76,
+    "printedPage": "71",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "V",
+      "item": "Vital Wheat Gluten",
+      "intro": "Try it in:",
+      "uses": ["seitan", "vegan “steaks”", "deli slices", "sausages", "“chicken” strips"],
+      "shopLink": {"label": "Shop Vital Wheat Gluten", "url": "https://amzn.to/4gO6uhY"}
+    }
+  },
+  {
+    "physicalPage": 77,
+    "printedPage": "72",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "W",
+      "item": "Walnuts",
+      "intro": "Great for:",
+      "uses": ["omega-3 fats", "vegan “meat” crumbles", "pesto", "desserts"],
+      "shopLink": {"label": "Shop Walnuts", "url": "https://amzn.to/4h5Lbtw"}
+    }
+  },
+  {
+    "physicalPage": 78,
+    "printedPage": "73",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "X",
+      "item": "Xanthan Gum",
+      "uses": ["gluten-free baking", "vegan sauces", "dressings", "gravies", "ice cream", "smoothies", "egg-free baking", "binding & thickening", "plant-based thickener & stabilizer"],
+      "shopLink": {"label": "Shop Xanthan Gum", "url": "https://amzn.to/3UUaCFL"}
+    }
+  },
+  {
+    "physicalPage": 79,
+    "printedPage": "74",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "Y",
+      "item": "Yeast & Yogurt",
+      "uses": ["Vegan yogurt with live cultures", "Brewer’s yeast", "Bread", "Pizza dough", "Cinnamon rolls", "Vegan cheese", "Baked goods", "Natural leavening & fermentation agent"],
+      "shopLinks": [
+        {"label": "Shop Yeast", "url": "https://amzn.to/4gxaPam"},
+        {"label": "Shop Yogurt", "url": "https://amzn.to/4iHpa5o"}
+      ]
+    }
+  },
+  {
+    "physicalPage": 80,
+    "printedPage": "75",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "Z",
+      "item": "Zucchini & Za’atar",
+      "note": "(Not pantry-only, but great vegan staples)",
+      "uses": ["Zucchini for noodles, fritters, soups", "Za’atar for instant Middle Eastern flavor"],
+      "shopLinks": [
+        {"label": "Shop Zucchini", "url": "https://amzn.to/4xwdAyD"},
+        {"label": "Shop Za’atar", "url": "https://amzn.to/4cotfaX"}
+      ]
+    }
+  }
+]
