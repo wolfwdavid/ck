@@ -21,6 +21,16 @@
     return esc(str).split('\n').join('<br>');
   }
 
+  // Several transcribed titles arrive as "Short Heading — long explanatory sentence"
+  // (the PDF's own page intro folded into the title field). Split so the heading stays
+  // a heading and the explanation reads as body copy underneath it.
+  function splitTitle(title) {
+    if (!title) return { heading: null, intro: null };
+    var parts = title.split(/\s[—–-]\s/);
+    if (parts.length < 2) return { heading: title, intro: null };
+    return { heading: parts[0], intro: parts.slice(1).join(' — ') };
+  }
+
   function linkOrDisabled(label, url, extraClass) {
     var cls = extraClass || '';
     if (url) {
@@ -34,10 +44,12 @@
     return 'assets/' + assets[key];
   }
 
-  function decorLines() {
+  function decorLines(altText) {
     // Recreation of the PDF's abstract line-art "breather" page (vector in the source, no raster asset exists).
+    // altText (the transcribed description of the original artwork) becomes the SVG's accessible name,
+    // not visible caption text — it's describing decoration, not giving the reader new information.
     return (
-      '<svg class="decor-lines" viewBox="0 0 400 300" role="img" aria-label="Abstract geometric line illustration">' +
+      '<svg class="decor-lines" viewBox="0 0 400 300" role="img" aria-label="' + esc(altText || 'Abstract geometric line illustration') + '">' +
       '<g fill="none" stroke="#1a1a1a" stroke-width="1.4">' +
       '<polyline points="10,290 140,40 270,290" />' +
       '<polyline points="90,290 200,110 320,290" />' +
@@ -93,11 +105,14 @@
     photo: function (s, assets) {
       var c = s.content || {};
       var url = assetUrl(assets, c.image);
+      if (!url) {
+        // No raster asset (e.g. the source PDF's vector line-art pages) — the caption describes the
+        // artwork itself, so it belongs on the SVG as an accessible name, not as visible caption text.
+        return '<figure class="media-figure">' + decorLines(c.caption) + '</figure>';
+      }
       return (
         '<figure class="media-figure">' +
-        (url
-          ? '<img src="' + esc(url) + '" alt="' + esc(c.caption || '') + '">'
-          : decorLines()) +
+        '<img src="' + esc(url) + '" alt="' + esc(c.caption || '') + '">' +
         (c.caption ? '<figcaption>' + esc(c.caption) + '</figcaption>' : '') +
         '</figure>'
       );
@@ -164,7 +179,9 @@
     table: function (s) {
       var c = s.content || {};
       var out = '';
-      if (c.title) out += '<h2 class="h h--md">' + esc(c.title) + '</h2>';
+      var t = splitTitle(c.title);
+      if (t.heading) out += '<h2 class="h h--md">' + esc(t.heading) + '</h2>';
+      if (t.intro) out += '<p class="body-text table-intro">' + esc(t.intro) + '</p>';
       var hasHeaders = c.headers && c.headers.length;
       out += '<div class="table-wrap"><table class="content-table">' +
         (hasHeaders
@@ -180,10 +197,17 @@
 
     'link-list': function (s) {
       var c = s.content || {};
-      var out = '<h2 class="h h--md">' + esc(c.title) + '</h2>';
+      var t = splitTitle(c.title);
+      var out = '';
+      if (t.heading) out += '<h2 class="h h--md">' + esc(t.heading) + '</h2>';
+      if (t.intro) out += '<p class="body-text table-intro">' + esc(t.intro) + '</p>';
       (c.groups || []).forEach(function (g) {
         out += '<div class="link-group">';
-        if (g.heading) out += '<h3 class="link-group__heading">' + esc(g.heading) + '</h3>';
+        if (g.heading) {
+          var gt = splitTitle(g.heading);
+          out += '<h3 class="link-group__heading">' + esc(gt.heading) + '</h3>';
+          if (gt.intro) out += '<p class="body-text table-intro">' + esc(gt.intro) + '</p>';
+        }
         out += '<ul>' + (g.links || []).map(function (l) {
           return '<li>' + linkOrDisabled(l.label, l.url) + '</li>';
         }).join('') + '</ul>';
@@ -194,13 +218,17 @@
 
     worksheet: function (s) {
       var c = s.content || {};
-      var out = '<h2 class="h h--lg">' + esc(c.title) + '</h2>';
+      var t = splitTitle(c.title);
+      var out = '';
+      if (t.heading) out += '<h2 class="h h--lg">' + esc(t.heading) + '</h2>';
+      if (t.intro) out += '<p class="body-text table-intro">' + esc(t.intro) + '</p>';
       (c.prompts || []).forEach(function (p, i) {
         var key = 'worksheet-' + i;
+        var labelText = p ? (i + 1) + '. ' + esc(p) : (i + 1) + '.';
         out += (
           '<div class="worksheet-prompt">' +
-          '<label for="' + key + '">' + (i + 1) + '. ' + esc(p) + '</label>' +
-          '<textarea id="' + key + '" data-worksheet-key="' + key + '"></textarea>' +
+          '<label for="' + key + '">' + labelText + '</label>' +
+          '<textarea id="' + key + '" data-worksheet-key="' + key + '" placeholder="Your last non-vegan …"></textarea>' +
           '</div>'
         );
       });

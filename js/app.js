@@ -28,10 +28,12 @@
 
   function anchorFor(screen) {
     var c = screen.content || {};
-    if (screen.type === 'pantry-letter' && c.letter) return 'pantry-' + c.letter.toLowerCase();
-    if (screen.type === 'recipe' && c.title) return 'recipe-' + slugify(c.title);
-    if (screen.type === 'divider' && c.title) return slugify(c.title);
     var pp = Array.isArray(screen.physicalPage) ? screen.physicalPage[0] : screen.physicalPage;
+    if (screen.type === 'pantry-letter' && c.letter) return 'pantry-' + c.letter.toLowerCase();
+    if (screen.type === 'divider' && c.title) return slugify(c.title);
+    // Recipes often span multiple physical pages with the same title (e.g. "Milk" on pp.23-24) —
+    // the page number keeps each screen's anchor unique so direct links/back-forward still work.
+    if (screen.type === 'recipe' && c.title) return 'recipe-' + slugify(c.title) + '-' + pp;
     return 'p' + pp;
   }
 
@@ -189,7 +191,13 @@
       // skip essay/quote/photo continuation pages that share a section with a more specific entry
       var showTypes = ['recipe', 'pantry-letter', 'divider', 'worksheet', 'bio', 'table', 'link-list', 'cover', 'closing'];
       if (showTypes.indexOf(screen.type) === -1 && bySection[key].length > 0) return;
-      bySection[key].push({ index: i, label: labelFor(screen) });
+      var label = labelFor(screen);
+      var list = bySection[key];
+      var last = list[list.length - 1];
+      // a recipe/table/etc. that continues onto another physical page repeats the same label —
+      // keep only the first screen as the jump target, the rest are reached by swiping forward
+      if (last && last.label === label) return;
+      list.push({ index: i, label: label });
     });
 
     el.jumpMenuBody.innerHTML = '';

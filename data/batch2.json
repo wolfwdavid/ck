@@ -1,0 +1,838 @@
+[
+  {
+    "physicalPage": 21,
+    "printedPage": null,
+    "section": "Layer Three: Switcharoozies",
+    "type": "divider",
+    "content": { "title": "Layer Three: Switcharoozies" }
+  },
+  {
+    "physicalPage": 22,
+    "printedPage": "16",
+    "section": "Layer Three: Switcharoozies",
+    "type": "essay",
+    "content": {
+      "heading": null,
+      "paragraphs": [
+        "This is the part where I teach you how to replace your current pantry/fridge items to make this process THAT MUCH EASIER. Here are some recipes we'll cover. I've included affiliate links in the main text to make the transition even easier if you don’t cook, don't have access to a kitchen, or prefer buying these products instead of making them. Again, this guidebook is focused on making things easier for you, not harder. Simply hover over the item at the top of the page eg: MILK BUTTER CHEESE and a link will take you to my Amazon affiliate page. This is how I keep this sustainable while providing free material.",
+        "Please email cosmickittyinspace@gmail.com with any questions about this.",
+        "Okay, now that that’s all out of the way, let’s go make your fridge and pantry cruelty-free!",
+        "THE FUN PART"
+      ],
+      "image": null,
+      "pullquote": null,
+      "cta": { "label": "cosmickittyinspace@gmail.com", "url": "mailto:cosmickittyinspace@gmail.com" }
+    }
+  },
+  {
+    "physicalPage": 23,
+    "printedPage": "17",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Milk",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Oat Milk (Easiest)",
+          "ingredients": ["1 cup rolled oats", "4 cups cold water", "Pinch of salt", "Optional: 1–2 dates, vanilla, cinnamon"],
+          "steps": ["Blend for only 20–30 seconds.", "Strain through a nut milk bag or fine towel.", "Refrigerate for up to 5 days."],
+          "tips": "Tip: Don't overblend or use warm water, or it can become slimy."
+        },
+        {
+          "name": "Cashew Milk (No Straining Needed)",
+          "ingredients": ["1 cup raw cashews (soaked 2–4 hours or overnight)", "4 cups water", "Pinch of salt"],
+          "steps": ["Blend for 1–2 minutes until completely smooth.", "Because cashews blend so finely, you often don't need to strain them."],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 24,
+    "printedPage": "18",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Milk",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Coconut Milk",
+          "ingredients": ["2 cups unsweetened shredded coconut", "4 cups hot (not boiling) water"],
+          "steps": ["Blend for 2–3 minutes and strain.", "Great for curries, smoothies, and desserts."],
+          "tips": null
+        },
+        {
+          "name": "Sunflower Seed Milk",
+          "ingredients": ["1 cup soaked sunflower seeds", "4 cups water", "Pinch of salt"],
+          "steps": [],
+          "tips": "A great nut-free option."
+        },
+        {
+          "name": "Soy Milk (Highest Protein)",
+          "ingredients": [],
+          "steps": ["Soak 1 cup dried soybeans overnight.", "Blend with 4–5 cups water.", "Strain.", "Boil gently for about 20 minutes, stirring often."],
+          "tips": "Soy milk takes a little more work because it needs to be cooked after blending. Soy milk is naturally high in protein and works well in cooking and baking."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 25,
+    "printedPage": "19",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Butter",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Homemade Vegan Butter",
+          "ingredients": ["½ cup refined coconut oil (melted)", "½ cup neutral oil (such as sunflower or avocado)", "¼ cup unsweetened plant milk", "1 teaspoon apple cider vinegar", "½ teaspoon salt"],
+          "steps": ["Blend until emulsified, pour into a container, and chill until firm."],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 26,
+    "printedPage": "20",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cheese",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Cashew \"Cheese\"",
+          "ingredients": ["2 cups soaked cashews", "¼ cup nutritional yeast", "2 tablespoons lemon juice", "1 clove garlic", "½ teaspoon salt", "Enough water for a creamy consistency"],
+          "steps": [],
+          "tips": "Use it as a dip, pasta sauce, or sandwich spread."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 27,
+    "printedPage": "21",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cream Cheese",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Classic Cashew Vegan Cream Cheese",
+          "ingredients": [
+            "1½ cups raw cashews",
+            "¼ cup water (add slowly)",
+            "2 tablespoons lemon juice",
+            "1 tablespoon apple cider vinegar",
+            "1 teaspoon white miso (optional, adds cheesy tang)",
+            "½ teaspoon salt",
+            "1 tablespoon nutritional yeast (optional)",
+            "1–2 tablespoons plant yogurt or sauerkraut brine (optional, for a cultured flavor)"
+          ],
+          "steps": [
+            "Soak cashews:",
+            "4–6 hours in cold water, or",
+            "20 minutes in boiling water.",
+            "Drain and rinse.",
+            "Blend everything until completely smooth and creamy.",
+            "Taste and adjust:",
+            "More lemon = tangier",
+            "More salt = cheesier",
+            "More water = softer spread",
+            "Refrigerate 2–4 hours to thicken."
+          ],
+          "tips": "Keeps about 5–7 days in the fridge."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 28,
+    "printedPage": "22",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cream Cheese",
+      "intro": "Flavor ideas:",
+      "variants": [
+        { "name": "Herby", "ingredients": ["Fresh dill", "Chives", "Garlic", "Black pepper"], "steps": [], "tips": null },
+        { "name": "Spicy", "ingredients": ["Jalapeño", "Chili flakes", "Smoked paprika"], "steps": [], "tips": null },
+        { "name": "Sweet", "ingredients": ["Maple syrup", "Vanilla", "Cinnamon", "Berries"], "steps": [], "tips": null }
+      ]
+    }
+  },
+  {
+    "physicalPage": 29,
+    "printedPage": "23",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cream Cheese",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Nut-Free Sunflower Seed Cream Cheese",
+          "ingredients": ["1 cup raw sunflower seeds", "¼ cup plant milk", "2 tablespoons lemon juice", "1 tablespoon apple cider vinegar", "½ teaspoon salt", "1 tablespoon nutritional yeast"],
+          "steps": ["Soak seeds 4 hours; blend until smooth."],
+          "tips": "This is cheaper, allergy-friendly, and great for feeding groups."
+        },
+        {
+          "name": "High-Protein Tofu Cream Cheese",
+          "ingredients": ["1 block silken or soft tofu", "2 tablespoons lemon juice", "1 tablespoon nutritional yeast", "1 teaspoon apple cider vinegar", "½ teaspoon salt", "Garlic/herbs if desired"],
+          "steps": ["Blend until creamy."],
+          "tips": "This is probably the easiest everyday version and has more protein than cashew cream cheese."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 30,
+    "printedPage": "24",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cottage Cheese",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Easy High-Protein Vegan Cottage Cheese (Tofu Version)",
+          "ingredients": [
+            "1 block (14 oz) extra-firm tofu",
+            "½ cup unsweetened vegan yogurt (soy works best)",
+            "2 tablespoons lemon juice",
+            "1 tablespoon nutritional yeast",
+            "1 tablespoon apple cider vinegar",
+            "½ teaspoon salt (adjust to taste)",
+            "1 tablespoon tahini or cashew butter (optional, adds richness)",
+            "1–2 tablespoons chopped herbs (chives, dill, parsley)"
+          ],
+          "steps": [
+            "Drain tofu and gently crumble it with your hands into small curds.",
+            "In a separate bowl, whisk yogurt, lemon juice, vinegar, nutritional yeast, salt, and tahini.",
+            "Fold the tofu crumbles into the creamy mixture.",
+            "Refrigerate for at least 30 minutes so the flavors blend."
+          ],
+          "tips": "Texture tip: Don’t mash the tofu too much—you want little \"curds\" like traditional cottage cheese. **For a fermented \"real cream cheese\" flavor, you can let the cashew version sit with a probiotic capsule or a spoonful of live vegan yogurt for 12–24 hours before refrigerating. It develops that tangy cultured taste similar to traditional cream cheese."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 31,
+    "printedPage": "25",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cottage Cheese",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Nut-Free, Soy-Free Version (Seed-Based)",
+          "ingredients": ["1 cup soaked sunflower seeds", "½ cup unsweetened plant milk", "2 tablespoons lemon juice", "1 tablespoon apple cider vinegar", "½ teaspoon salt", "½ cup mashed white beans or crumbled tofu alternative (for curd texture)"],
+          "steps": ["Blend the creamy part, then mix with the chunky part."],
+          "tips": null
+        },
+        {
+          "name": "Sweet Cottage Cheese Bowl",
+          "ingredients": ["Vegan cottage cheese", "Berries", "Hemp hearts", "Chia seeds", "Cinnamon", "Maple syrup", "Walnuts"],
+          "steps": [],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 32,
+    "printedPage": "26",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cottage Cheese",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Savory Cottage Cheese Bowl",
+          "ingredients": ["Vegan cottage cheese", "Cucumber", "Tomato", "Dill", "Black pepper", "Olive oil", "Sprouts"],
+          "steps": [],
+          "tips": null
+        },
+        {
+          "name": "Protein Boost",
+          "ingredients": [],
+          "steps": ["Use soy tofu + soy yogurt", "Add hemp hearts", "Add nutritional yeast", "Pair with legumes or whole grains"],
+          "tips": "If you're aiming for a whole-food vegan \"athlete\" version:"
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 33,
+    "printedPage": "27",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Yogurt",
+      "intro": null,
+      "variants": [
+        {
+          "name": null,
+          "ingredients": [
+            "2 cups (480 ml) unsweetened soy milk (the kind made from just soybeans and water works best)",
+            "1 tablespoon plain vegan yogurt with live active cultures (or 1–2 probiotic capsules containing live cultures)",
+            "1 tablespoon tapioca starch or cornstarch (optional, for a thicker yogurt)",
+            "1 teaspoon maple syrup or sugar (optional, helps feed the cultures)"
+          ],
+          "steps": [
+            "Heat the milk",
+            "Pour the soy milk into a saucepan.",
+            "Whisk in the starch if using.",
+            "Heat to about 180°F (82°C), stirring occasionally.",
+            "Cool",
+            "Let the milk cool to 105–110°F (40–43°C).",
+            "Add the starter",
+            "Stir a few tablespoons of the cooled milk into the vegan yogurt until smooth.",
+            "Mix it back into the pot.",
+            "Incubate",
+            "Transfer to a clean glass jar.",
+            "Keep warm (105–110°F / 40–43°C) for 8–12 hours using:",
+            "a yogurt maker,",
+            "Instant Pot (Yogurt setting),",
+            "oven with the light on,",
+            "or a warm insulated cooler.",
+            "Refrigerate for at least 6 hours before eating."
+          ],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 34,
+    "printedPage": "28",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Yogurt",
+      "intro": "It will continue to thicken as it chills.",
+      "variants": [
+        {
+          "name": "Flavor Ideas",
+          "ingredients": ["Vanilla + maple syrup", "Blueberries + lemon zest", "Mango + cardamom", "Cinnamon + apple", "Cocoa + peanut butter", "Strawberry + basil"],
+          "steps": [],
+          "tips": null
+        },
+        {
+          "name": "For an Extra Thick \"Greek-Style\" Yogurt",
+          "ingredients": [],
+          "steps": ["After chilling, line a strainer with cheesecloth or a nut milk bag and let the yogurt drain in the refrigerator for 2–6 hours. The longer it drains, the thicker it becomes."],
+          "tips": null
+        },
+        {
+          "name": "Best Milk Choices",
+          "ingredients": [
+            "Soy milk – highest protein, thickest and most reliable.",
+            "Coconut milk – rich and creamy but lower in protein.",
+            "Cashew milk – smooth and mild.",
+            "Oat or almond milk – can work but usually need additional thickeners for a creamy texture."
+          ],
+          "steps": [],
+          "tips": null
+        },
+        {
+          "name": "Storage",
+          "ingredients": [],
+          "steps": ["Keeps in the refrigerator for 5–7 days.", "Save 2 tablespoons from each batch to use as the starter for your next batch."],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 35,
+    "printedPage": "29",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Sour Cream",
+      "intro": "Vegan sour cream is one of the easiest dairy alternatives to make because the main goal is creaminess + tang. Here are a few versions depending on what you have.",
+      "variants": [
+        {
+          "name": "Classic Cashew Sour Cream (Closest to Dairy)",
+          "ingredients": ["1 cup raw cashews", "½ cup water (add slowly)", "2 tablespoons lemon juice", "1 tablespoon apple cider vinegar", "½ teaspoon salt", "1 tablespoon unsweetened vegan yogurt (optional, for extra tang)"],
+          "steps": ["Soak cashews:", "4–6 hours in water, or", "20 minutes in hot water.", "Drain and rinse.", "Blend everything until completely smooth and silky.", "Chill for 1–2 hours to thicken."],
+          "tips": "Flavor adjustment: More lemon = brighter. More vinegar = sharper sour cream flavor. More salt = more \"dairy-like\"."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 36,
+    "printedPage": "30",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Sour Cream",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Nut-Free Sunflower Sour Cream",
+          "ingredients": ["1 cup raw sunflower seeds", "½ cup water", "2 tablespoons lemon juice", "1 tablespoon apple cider vinegar", "½ teaspoon salt", "1 tablespoon nutritional yeast (optional)"],
+          "steps": ["Soak seeds → blend → chill."],
+          "tips": "Great for allergy-friendly cooking classes."
+        },
+        {
+          "name": "High-Protein Tofu Sour Cream (Fastest)",
+          "ingredients": ["1 block silken tofu", "2 tablespoons lemon juice", "1 tablespoon apple cider vinegar", "½ teaspoon salt", "1 tablespoon tahini (optional)"],
+          "steps": ["Blend until smooth."],
+          "tips": "This is great for: tacos, baked potatoes, chili, vegan stroganoff, dips"
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 37,
+    "printedPage": "31",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Sour Cream",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Cultured Coconut Sour Cream (Most Traditional Flavor)",
+          "ingredients": ["1 can full-fat coconut cream", "2 tablespoons lemon juice", "1 tablespoon apple cider vinegar", "Pinch of salt"],
+          "steps": ["Blend and refrigerate overnight."],
+          "tips": "(The coconut flavor can be reduced by adding more tang and herbs.)"
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 38,
+    "printedPage": "32",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Mayo",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Classic Vegan Mayo (Aquafaba Version)",
+          "ingredients": ["¼ cup aquafaba (liquid from a can of chickpeas)", "1 cup neutral oil (avocado, sunflower, grapeseed, or canola)", "1 tablespoon lemon juice", "1 teaspoon apple cider vinegar", "½ teaspoon Dijon mustard", "½ teaspoon salt"],
+          "steps": ["Add aquafaba, lemon juice, vinegar, mustard, and salt to a tall jar.", "Use an immersion blender and blend for 10–15 seconds.", "Slowly drizzle in oil while blending.", "Keep blending until thick and creamy.", "Refrigerate for at least 30 minutes to firm up."],
+          "tips": "(Closest to traditional mayo) Keeps about 1 week in the fridge."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 39,
+    "printedPage": "33",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Mayo",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Whole-Food Vegan Mayo (No Refined Oil)",
+          "ingredients": ["½ cup soaked cashews", "¼ cup unsweetened soy milk", "1 tablespoon lemon juice", "1 tablespoon apple cider vinegar", "1 teaspoon Dijon mustard", "½ teaspoon salt"],
+          "steps": ["Blend until silky smooth."],
+          "tips": "This is more like a cashew aioli/spread and works beautifully in: sandwiches, wraps, potato salad, coleslaw, vegan tuna salad."
+        },
+        {
+          "name": "Flavor upgrades",
+          "ingredients": ["Garlic aioli: add roasted garlic", "Chipotle mayo: add smoked paprika + chipotle", "Ranch mayo: add dill, parsley, garlic, onion powder", "Lemon herb mayo: add fresh herbs + extra lemon"],
+          "steps": [],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 40,
+    "printedPage": "34",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Tzatziki",
+      "intro": "Vegan tzatziki is one of the easiest dairy-free sauces to make. It’s basically a creamy cucumber-herb sauce with yogurt, garlic, lemon, and dill.",
+      "variants": [
+        {
+          "name": "Classic Vegan Tzatziki",
+          "ingredients": [
+            "1 cup unsweetened vegan yogurt (soy works best for protein; coconut works for richness)",
+            "½ large cucumber, grated",
+            "1–2 cloves garlic, minced",
+            "2 tablespoons lemon juice",
+            "1 tablespoon olive oil",
+            "2 tablespoons fresh dill (or 1 teaspoon dried)",
+            "1 tablespoon fresh mint (optional)",
+            "½ teaspoon salt",
+            "Black pepper to taste"
+          ],
+          "steps": [
+            "Grate cucumber.",
+            "Squeeze out as much water as possible using a clean towel (this prevents watery tzatziki).",
+            "Mix yogurt, cucumber, garlic, lemon, olive oil, herbs, salt, and pepper.",
+            "Let sit in the fridge for 30 minutes–2 hours so the flavors develop."
+          ],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 41,
+    "printedPage": "35",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Tzatziki",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Whole-Food Vegan Tzatziki (No Store-Bought Yogurt)",
+          "ingredients": ["1 cup soaked cashews", "½ cup water", "2 tablespoons lemon juice", "1 tablespoon apple cider vinegar", "1 clove garlic", "½ teaspoon salt"],
+          "steps": ["Then stir in:", "½ grated cucumber (squeezed dry)", "Dill", "Mint"],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 42,
+    "printedPage": "36",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Ranch",
+      "intro": "Vegan Ranch is actually very easy to make. The secret is creating the creamy base + tang + herbs + garlic/onion flavor that dairy ranch gets from buttermilk and seasonings.",
+      "variants": [
+        {
+          "name": "Classic Vegan Ranch Dressing",
+          "ingredients": [
+            "1 cup unsweetened vegan yogurt (soy yogurt works great)",
+            "¼ cup vegan mayo (optional, makes it richer)",
+            "1–2 tablespoons lemon juice",
+            "1 tablespoon apple cider vinegar",
+            "1 teaspoon Dijon mustard",
+            "1 teaspoon garlic powder (or 1 fresh garlic clove)",
+            "1 teaspoon onion powder",
+            "1 teaspoon dried dill (or 1 tablespoon fresh)",
+            "1 tablespoon fresh parsley, chopped",
+            "1 tablespoon fresh chives, chopped",
+            "½ teaspoon salt",
+            "Black pepper to taste"
+          ],
+          "steps": ["Mix everything.", "Let sit in the fridge for 30 minutes so the herbs bloom."],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 43,
+    "printedPage": "37",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Caesar Dressing",
+      "intro": "Vegan Caesar dressing is one of the best dairy-free sauces because the “Caesar” flavor comes less from dairy and more from umami + garlic + lemon + creaminess. The traditional anchovy flavor can be recreated with capers, miso, or seaweed.",
+      "variants": [
+        {
+          "name": "Vegan Caesar Dressing (Cashew-Based)",
+          "ingredients": [
+            "1 cup raw cashews (soaked 4–6 hours or boiled 15–20 minutes)",
+            "½ cup water",
+            "2 tablespoons lemon juice",
+            "1 tablespoon apple cider vinegar",
+            "1 tablespoon capers (or 1 teaspoon caper brine)",
+            "1 tablespoon white miso (optional but adds amazing umami)",
+            "1–2 cloves garlic",
+            "2 tablespoons nutritional yeast",
+            "1 teaspoon Dijon mustard",
+            "½ teaspoon salt",
+            "Black pepper to taste"
+          ],
+          "steps": [
+            "Drain and rinse soaked cashews.",
+            "Blend everything until silky smooth.",
+            "Adjust:",
+            "More lemon = brighter",
+            "More capers/miso = more “anchovy” depth",
+            "More water = thinner dressing",
+            "Chill for 30 minutes before serving."
+          ],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 44,
+    "printedPage": "38",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Caesar Dressing",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Nut-Free Vegan Caesar",
+          "ingredients": ["½ block silken tofu", "¼ cup sunflower seeds (soaked)", "2 tablespoons lemon juice", "1 tablespoon capers", "1 tablespoon nutritional yeast", "1 teaspoon Dijon", "1 garlic clove", "Salt + pepper"],
+          "steps": ["Blend until creamy."],
+          "tips": null
+        },
+        {
+          "name": "Extra “Restaurant-Style” Caesar Flavor",
+          "ingredients": ["½ teaspoon dulse flakes or crushed nori (for ocean umami)", "A splash of tamari", "Roasted garlic instead of raw garlic"],
+          "steps": [],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 45,
+    "printedPage": "39",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Aioli",
+      "intro": "A vegan aioli alternative is basically a creamy garlic sauce. Traditional aioli is an emulsion of garlic + oil (often with egg in modern versions), so the vegan versions recreate the richness with nuts, seeds, tofu, or beans.",
+      "variants": [
+        {
+          "name": "Classic Vegan Garlic Aioli (Cashew)",
+          "ingredients": ["1 cup raw cashews (soaked 4–6 hours or boiled 15–20 minutes)", "½ cup water", "2–3 cloves garlic", "2 tablespoons lemon juice", "1 tablespoon olive oil", "1 teaspoon Dijon mustard", "½ teaspoon salt", "Black pepper"],
+          "steps": ["Soak and drain cashews.", "Blend everything until silky smooth.", "Chill for 30 minutes to thicken."],
+          "tips": null
+        },
+        {
+          "name": "Great for",
+          "ingredients": ["roasted potatoes 🥔", "veggie burgers 🍔", "sandwiches", "fries", "grilled vegetables"],
+          "steps": [],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 46,
+    "printedPage": "40",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Aioli",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Nut-Free Sunflower Aioli",
+          "ingredients": ["1 cup soaked sunflower seeds", "½ cup water", "2 cloves garlic", "2 tablespoons lemon juice", "1 tablespoon olive oil", "½ teaspoon salt"],
+          "steps": ["Blend until creamy."],
+          "tips": null
+        },
+        {
+          "name": "Flavor variations",
+          "ingredients": ["Herb aioli: parsley + basil + dill", "Spicy aioli: smoked paprika + chili flakes", "Lemon pepper aioli: extra lemon zest + cracked pepper", "Olive aioli: blend in chopped olives or capers", "Roasted garlic aioli: roast garlic first for a sweeter flavor"],
+          "steps": [],
+          "tips": null
+        },
+        {
+          "name": null,
+          "ingredients": [],
+          "steps": [],
+          "tips": "For a whole-food vegan “mother sauce” collection, aioli is a great base because you can turn the same creamy mixture into ranch, Caesar, chipotle sauce, garlic spread, or sandwich mayo just by changing the seasonings."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 47,
+    "printedPage": "41",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Ricotta",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Easy Vegan Ricotta",
+          "ingredients": [
+            "1½ cups raw cashews, soaked 2–4 hours and drained",
+            "½ cup firm or extra-firm tofu, pressed",
+            "2 tbsp nutritional yeast",
+            "1 tbsp lemon juice",
+            "1 tbsp apple cider vinegar",
+            "½ tsp garlic powder",
+            "½ tsp salt",
+            "2–4 tbsp water, as needed",
+            "1 tbsp olive oil (optional, for extra richness)"
+          ],
+          "steps": [
+            "Add everything except the water to a food processor.",
+            "Pulse several times rather than blending continuously. You want crumbly, ricotta-like curds, not a completely smooth paste.",
+            "Add water 1 tablespoon at a time until it reaches your preferred consistency.",
+            "Taste and adjust:",
+            "More lemon → tangier",
+            "More nutritional yeast → cheesier",
+            "More salt → more savory",
+            "More olive oil → richer",
+            "Refrigerate for 30–60 minutes before using. It firms up beautifully."
+          ],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 48,
+    "printedPage": "42",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Hollandaise",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Hollandaise",
+          "ingredients": [
+            "½ cup raw cashews, soaked 2–4 hours and drained",
+            "½ cup unsweetened plant milk",
+            "2 tbsp nutritional yeast",
+            "1 tbsp lemon juice",
+            "1 tsp Dijon mustard",
+            "½ tsp turmeric — mostly for that gorgeous yellow color",
+            "½ tsp garlic powder",
+            "½ tsp salt",
+            "¼ tsp black pepper",
+            "1 tbsp vegan butter, melted",
+            "1 tsp apple cider vinegar",
+            "1–2 tbsp water, as needed"
+          ],
+          "steps": [
+            "Blend: Add everything to a high-speed blender.",
+            "Blend until silky smooth, adding water 1 tbsp at a time if it's too thick.",
+            "Warm: Pour into a small saucepan and heat over low heat, whisking constantly for 2–4 minutes.",
+            "Don't let it boil—the sauce can become too thick or separate.",
+            "Taste and adjust the lemon, salt, and Dijon until it's bright and tangy."
+          ],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 49,
+    "printedPage": "43",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Gravy",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Easy Gravy",
+          "ingredients": [
+            "2 tbsp vegan butter or olive oil",
+            "2 tbsp all-purpose flour",
+            "1½ cups vegetable broth",
+            "1 tbsp soy sauce or tamari",
+            "1 tsp nutritional yeast",
+            "½ tsp onion powder",
+            "½ tsp garlic powder",
+            "¼ tsp dried thyme",
+            "¼ tsp black pepper",
+            "Salt, to taste"
+          ],
+          "steps": [
+            "Make the roux: Melt the vegan butter over medium heat. Whisk in the flour and cook for 1–2 minutes, stirring constantly.",
+            "Add broth slowly: Gradually whisk in the vegetable broth to avoid lumps.",
+            "Season: Add soy sauce, nutritional yeast, onion powder, garlic powder, thyme, and pepper.",
+            "Simmer: Cook for 5–8 minutes, whisking occasionally, until thick and glossy.",
+            "Taste: Add more soy sauce for depth or salt if needed."
+          ],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 50,
+    "printedPage": "44",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cashew Alternatives",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Sunflower Seeds (Best All-Around Cashew Replacement)",
+          "ingredients": ["Nut-free", "Affordable", "Mild flavor", "High in vitamin E, magnesium, and healthy fats"],
+          "steps": ["1 cup cashews → 1 cup soaked sunflower seeds"],
+          "tips": "Best for: cream cheese, sour cream, ranch, cheese sauces, aioli. Tip: Soak 4–6 hours or boil 15 minutes."
+        },
+        {
+          "name": "White Beans (Budget + High Protein)",
+          "ingredients": ["Cannellini beans", "Great Northern beans", "Navy beans", "1 cup cooked white beans", "¼–½ cup plant milk", "Lemon juice", "Garlic", "Nutritional yeast", "Salt"],
+          "steps": [],
+          "tips": "Best for: creamy sauces, dips, Alfredo, hummus-style spreads. Creates a surprisingly creamy texture."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": [51, 52],
+    "printedPage": "45–46",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cashew Alternatives",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Silken Tofu (Highest Protein)",
+          "ingredients": ["More protein than cashews", "Very neutral", "Cheap", "No soaking", "1 block silken tofu", "Lemon", "Vinegar", "Salt", "Seasonings"],
+          "steps": [],
+          "tips": "Best for: sour cream, mayo, ranch, desserts, mousse"
+        },
+        {
+          "name": "Macadamia Nuts (Luxury Cashew Substitute)",
+          "ingredients": ["Extremely creamy", "Mild flavor", "Rich texture"],
+          "steps": [],
+          "tips": "Best for: cheesecake, cream sauces, fancy desserts. Cons: Usually more expensive."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 53,
+    "printedPage": "47",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cashew Alternatives",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Hemp Hearts",
+          "ingredients": ["Complete protein", "Omega-3 fats", "No soaking needed", "½ cup hemp hearts", "½ cup water", "Lemon", "Salt"],
+          "steps": [],
+          "tips": "Best for: sauces, dressings, smoothies"
+        },
+        {
+          "name": "Coconut (Creamiest but Has Flavor)",
+          "ingredients": ["Full-fat coconut milk", "Coconut cream"],
+          "steps": [],
+          "tips": "Best for: curries, desserts, whipped creams. Not ideal when you want a neutral “cheese” flavor."
+        }
+      ]
+    }
+  }
+]

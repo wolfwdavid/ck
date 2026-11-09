@@ -1,18 +1,2594 @@
 [
-  { "physicalPage": 1, "printedPage": null, "section": "Front Matter", "type": "cover",
-    "content": { "title": "Vegan Not Vegan", "subtitle": "A Guide Book", "image": "citrusTexture" } },
-  { "physicalPage": 4, "printedPage": null, "section": "Layer One: The Truth", "type": "divider",
-    "content": { "title": "Layer One: The Truth" } },
-  { "physicalPage": 5, "printedPage": "1", "section": "Layer One: The Truth", "type": "essay",
-    "content": { "heading": null, "paragraphs": ["SMOKE TEST PLACEHOLDER — this will be replaced by real extracted content."], "image": null, "pullquote": null, "cta": null } },
-  { "physicalPage": 23, "printedPage": "18", "section": "Layer Three: Switcharoozies", "type": "recipe",
-    "content": { "title": "Milk", "intro": "Placeholder intro.", "variants": [ { "name": "Oat Milk (Easiest)", "ingredients": ["1 cup rolled oats", "4 cups cold water", "pinch of salt"], "steps": ["Blend 20-30 seconds.", "Strain.", "Fridge up to 5 days."], "tips": "Don't overblend or it goes slimy." } ] } },
-  { "physicalPage": 55, "printedPage": "49", "section": "A-Z New Pantry Additions", "type": "pantry-letter",
-    "content": { "letter": "A", "item": "Aquafaba", "uses": ["Egg white substitute", "Meringue"], "shopLink": { "label": "Shop Aquafaba", "url": null } } },
-  { "physicalPage": 84, "printedPage": "79", "section": "Vitamin B12", "type": "table",
-    "content": { "title": "Plant Sources of Key Nutrients", "headers": ["Nutrient", "Plant Source"], "rows": [["B12", "Fortified nutritional yeast"], ["Iron", "Lentils, spinach"]] } },
-  { "physicalPage": 92, "printedPage": "87", "section": "Worksheet", "type": "worksheet",
-    "content": { "title": "Your Last...", "prompts": ["Meal as a meat-eater.", "Dairy product you miss.", "Reason you started.", "Person who inspired you.", "Hardest swap.", "Easiest swap.", "Thing you tell skeptics.", "Promise to yourself."] } },
-  { "physicalPage": 94, "printedPage": "89", "section": "Closing", "type": "closing",
-    "content": { "text": "Thank you for reading." } }
+  {
+    "physicalPage": 1,
+    "printedPage": null,
+    "section": "Front Matter",
+    "type": "cover",
+    "content": {
+      "title": "THE ULTIMATE VEGAN NOT VEGAN GUIDEBOOK",
+      "subtitle": "HOW TO MAKE THE TRANSITION TO A PLANT-BASED LIFESTYLE WITHOUT THE EMOTIONAL WHIPLASH\nBY COSMIC KITTY IN SPACE/ANA NOT ANA",
+      "image": "citrusTexture"
+    }
+  },
+  {
+    "physicalPage": 2,
+    "printedPage": null,
+    "section": "Front Matter",
+    "type": "essay",
+    "content": {
+      "heading": "FORWARD",
+      "paragraphs": [
+        "TO EVERY ANIMAL THAT WAS KILLED AGAINST THEIR WILL, ACTIVISTS ARRESTED FOR SAVING THEM, AND VEGANS ALL AROUND THE WORLD WHO FIGHT FOR THE RIGHTS OF ANIMALS EVERY SINGLE DAY, THIS IS FOR YOU."
+      ],
+      "image": null,
+      "pullquote": null,
+      "cta": null
+    }
+  },
+  {
+    "physicalPage": 3,
+    "printedPage": null,
+    "section": "Front Matter",
+    "type": "table",
+    "content": {
+      "title": "TABLE OF M’FUKIN’ CONTENTS",
+      "headers": [],
+      "rows": [
+        [
+          "LAYER ONE: THE TRUTH",
+          "1"
+        ],
+        [
+          "LAYER TWO: CONCEPTUAL CONCLUSIONS",
+          "7"
+        ],
+        [
+          "A-Z NEW PANTRY ADDITIONS",
+          "48"
+        ],
+        [
+          "BUT WHAT ABOUT VITAMIN B12?",
+          "76"
+        ],
+        [
+          "PLANT-BASED RECIPES",
+          "80"
+        ],
+        [
+          "ADDITIONAL RESOURCES",
+          "81"
+        ],
+        [
+          "ABOUT THE WRITER",
+          "83"
+        ]
+      ]
+    }
+  },
+  {
+    "physicalPage": 4,
+    "printedPage": null,
+    "section": "Layer One: The Truth",
+    "type": "divider",
+    "content": {
+      "title": "LAYER ONE: THE TRUTH"
+    }
+  },
+  {
+    "physicalPage": 5,
+    "printedPage": "1",
+    "section": "Layer One: The Truth",
+    "type": "essay",
+    "content": {
+      "heading": "FIRSTLY, CONGRATU-FUCKING-LATIONS",
+      "paragraphs": [
+        "This required you to face some things in your life that probably weren't easy. Whatever the reason that made you decide to go plant-based (see how I didnt say “vegan”; I did this for a reason)*, you had to confront certain realities either about the wellbeing of the animals, the health of the planet, your levels of empathy, our current food industry, and honestly, how many lies you’ve been told (and maybe had to tell yourself to maintain the illusion of your decision until now)"
+      ],
+      "image": null,
+      "pullquote": null,
+      "cta": null
+    }
+  },
+  {
+    "physicalPage": 6,
+    "printedPage": "2",
+    "section": "Layer One: The Truth",
+    "type": "essay",
+    "content": {
+      "heading": "SECONDLY, CONGRATU-FUCKING-LATIONS AGAIN.",
+      "paragraphs": [
+        "The rug of dietary deceit slapped me in the face once I *really saw* what was happening to the animals in the slaughterhouses and factory farms. Unfortunately, that was only the beginning. What was truly horrific was how indifferent people around me seemed to be when I shared this information with them.",
+        "I made this guide so you don’t feel alone when you make this transition. You will lose friends, and maybe even some family. The truth is unsettling, and it can make you feel like you’re crazy when you’re the only one at the dinner saying “no thank you” to the dead carcass everyone is celebrating over."
+      ],
+      "image": null,
+      "pullquote": null,
+      "cta": null
+    }
+  },
+  {
+    "physicalPage": 7,
+    "printedPage": "3",
+    "section": "Layer One: The Truth",
+    "type": "essay",
+    "content": {
+      "heading": null,
+      "paragraphs": [
+        "My whole life changed when I woke up to the reality of the factory farm and slaughterhouse industry. My initial research explored solutions to end plastic production at its root while promoting alternative organic-based products (like mycelium and seaweed packaging). However, as I looked into plastic's destructive nature, I started noticing other harmful industries. I started mapping similarities between the energetic signature of *how* plastic was made (violent extraction through fracking and the invasion of nature) and the energetic signature of factory farms, the treatment of the homeless, how poverty is subtly passed on and structurally instituted, the obsession with violence and domination through the military-industrial complex, and lastly, the normalization of modern-day slavery through covert and overt intercontinental operations.",
+        "IMAGE CREATED BY @COSMICKITTYINSPACE"
+      ],
+      "image": "essayCollageP7",
+      "pullquote": null,
+      "cta": null
+    }
+  },
+  {
+    "physicalPage": 8,
+    "printedPage": "4",
+    "section": "Layer One: The Truth",
+    "type": "quote",
+    "content": {
+      "text": "What happens to the animals eventually happens to man.",
+      "attribution": "Chief Seattle"
+    }
+  },
+  {
+    "physicalPage": 9,
+    "printedPage": "5",
+    "section": "Layer One: The Truth",
+    "type": "essay",
+    "content": {
+      "heading": null,
+      "paragraphs": [
+        "There is no point in protesting on the streets to end genocide when you go back and consume the body of an animal that went through their own genocide. No point in standing by Black lives when you participate in the same currency that created slavery in the same place.",
+        "As I said above, this was not an easy truth to contend with.",
+        "The more research I did, the more I started to hate humanity and everyone who still decided to be blind to the suffering of these animals by consuming their dead bodies. I found it increasingly more difficult to be friends with people who had been in my life for over 17 years. I said no to weddings and birthdays, dinner parties, holiday gatherings; anything where non-vegan communal food was to be shared.",
+        "I saw the truth. Why couldn’t they? Were my friends and family really psychopaths? Why don’t they care about the animals? I thought they loved animals. Why are they making me feel bad about this? Why are they making fun of me? I thought they loved me?...",
+        "These were some thoughts and feelings that I started to have as I made my transition to a vegan diet. I suddenly found myself alone in parking lots waiting for my family to finish dinner when we ate out."
+      ],
+      "image": null,
+      "pullquote": null,
+      "cta": null
+    }
+  },
+  {
+    "physicalPage": 10,
+    "printedPage": "6",
+    "section": "Layer One: The Truth",
+    "type": "essay",
+    "content": {
+      "heading": null,
+      "paragraphs": [
+        "I WAS SUDDENLY INCREDIBLY REPULSED BY ANYONE EATING MEAT AND DID NOT UNDERSTAND HOW I HAD EATEN MEAT FOR ALL THOSE YEARS. I SHOULD ALSO MENTION THAT I HAD STOPPED DRINKING ALCOHOL AROUND THE SAME TIME, WHICH ACCELERATED THE PATH TOWARD CLARITY AND ISOLATION.",
+        "WHEN WE START TO UNTANGLE THE WEBS OF TORTURE AND DESTRUCTION WITHIN OUR LIVES, WE INEVITABLY START TO MAKE CLEANER PATHS THAT GIVE US A SENSE OF RENEWAL.",
+        "I’VE NOT HAD ANY DEAD MEAT IN MY BODY FOR OVER 7 YEARS. MY LIFE HAS COMPLETELY CHANGED. MY INNER WORLD HAS COMPLETELY SHIFTED, AND THE DECISIONS THAT I MAKE IN MY LIFE NOW ARE GUIDED BY A MUCH DEEPER SENSE OF PURPOSE AND UNDERSTANDING.",
+        "I HOPE YOU FIND WHAT YOU ARE LOOKING FOR IN THIS GUIDE AND THAT YOU SHARE IT WITH ANYONE WHO HAS EXPRESSED ANY INTEREST IN CHANGING TO A PLANT-BASED DIET."
+      ],
+      "image": null,
+      "pullquote": null,
+      "cta": null
+    }
+  },
+  {
+    "physicalPage": 11,
+    "printedPage": "7",
+    "section": "Layer One: The Truth",
+    "type": "essay",
+    "content": {
+      "heading": "THIRDLY, YOU ARE NOT ALONE.",
+      "paragraphs": [
+        "There are countless Facebook groups, Instagram pages, online or in-person support groups, communities, chats, and forums that offer advice, recipes, and support. Even though we are the minority (only 1% of the world is vegan/plant-based), we are certainly not alone or unsupported. I highly recommend finding a community of people who have made this switch so you don’t feel overwhelmed with this change. (Or Join our Discord)",
+        "The onslaught of truth can leave you emotionally distraught. Do not let yourself wrestle with this alone. I was 28 when I realized the truth behind factory farms and my role in meat and dairy consumption. At that point, I had over 10,15, 20 + years of being a complicit animal abuser.",
+        "Forgive yourself."
+      ],
+      "image": null,
+      "pullquote": null,
+      "cta": {
+        "label": "Join our Discord",
+        "url": "https://discord.gg/WS32N2UES"
+      }
+    }
+  },
+  {
+    "physicalPage": 12,
+    "printedPage": "8",
+    "section": "Layer One: The Truth",
+    "type": "photo",
+    "content": {
+      "image": "authorSelfie",
+      "caption": "THIS IS ME SMILING AT YOU FOR MAKING THIS DECISION"
+    }
+  },
+  {
+    "physicalPage": 13,
+    "printedPage": null,
+    "section": "Layer Two: Conceptual Conclusions",
+    "type": "divider",
+    "content": {
+      "title": "LAYER TWO: CONCEPTUAL CONCLUSIONS"
+    }
+  },
+  {
+    "physicalPage": 14,
+    "printedPage": "9",
+    "section": "Layer Two: Conceptual Conclusions",
+    "type": "photo",
+    "content": {
+      "image": null,
+      "caption": "Abstract line-art graphic: a thin black open triangle/chevron shape pointing left, drawn with three straight lines — one running diagonally from a point on the left edge up to the top-right corner, one running diagonally from that same left point down to the bottom-right corner, and one running horizontally along the very bottom of the page connecting back to the bottom-right corner."
+    }
+  },
+  {
+    "physicalPage": 15,
+    "printedPage": "10",
+    "section": "Layer Two: Conceptual Conclusions",
+    "type": "quote",
+    "content": {
+      "text": "FACTORY FARMING HAS NORMALIZED TORTURE + MURDER FOR CORPORATE + MILITARY GAIN\n\nTRAPPING US INTO AN ENERGETIC WEB OF CHAOS, ANXIETY, DEPRESSION, AND PAIN.",
+      "attribution": null
+    }
+  },
+  {
+    "physicalPage": 16,
+    "printedPage": "11",
+    "section": "Layer Two: Conceptual Conclusions",
+    "type": "essay",
+    "content": {
+      "heading": null,
+      "paragraphs": [
+        "When we consume products from a slaughterhouse, aka a torture chamber, we inevitably reinforce the very same energetic ties that many of us want to break free from in our daily lives. Instead of protesting on the streets every few months, we can protest every day with the dietary choices that we make. When we redirect our attention and purchasing power to a practice that carries harmonic resonance with peace, non-violence, and regeneration, we strengthen a web that reinforces an existence founded upon these principles."
+      ],
+      "image": null,
+      "pullquote": null,
+      "cta": null
+    }
+  },
+  {
+    "physicalPage": 17,
+    "printedPage": "12",
+    "section": "Layer Two: Conceptual Conclusions",
+    "type": "essay",
+    "content": {
+      "heading": "PURCHASING POWER AND THE ECONOMICS BEHIND THE SHIFT",
+      "paragraphs": [],
+      "image": null,
+      "pullquote": null,
+      "cta": null
+    }
+  },
+  {
+    "physicalPage": 18,
+    "printedPage": "13",
+    "section": "Layer Two: Conceptual Conclusions",
+    "type": "essay",
+    "content": {
+      "heading": null,
+      "paragraphs": [
+        "When we consume ANYTHING from the egg, meat, and dairy industries, we inevitably give this industry our POWER. This power gets compounded over time. Ultimately, we have to ask ourselves: which structures do we want to weaken, and which energetic currencies do we want to strengthen? Demand and Supply mechanisms work organically. We know this from economies of scale; higher demand creates higher supply. Therefore, the lower the demand, the lower the supply. This might be an over-simplification of this dynamic - yet how lovely it is to imagine all slaughterhouses and factory farms shutting down because the demand for meat and dairy was not enough to sustain their operations. If you enjoy using your imagination to create the world that you want to be a part of, then I suggest you join my cosmickittyinspace/Ana Not Ana Discord Channel where we do exactly that."
+      ],
+      "image": null,
+      "pullquote": null,
+      "cta": {
+        "label": "Discord Link",
+        "url": "https://discord.gg/WS32N2UES"
+      }
+    }
+  },
+  {
+    "physicalPage": 19,
+    "printedPage": "14",
+    "section": "Layer Two: Conceptual Conclusions",
+    "type": "essay",
+    "content": {
+      "heading": "PLANT-BASED VS VEGANISM (WHY THE DIFFERENCE?)",
+      "paragraphs": [],
+      "image": null,
+      "pullquote": null,
+      "cta": null
+    }
+  },
+  {
+    "physicalPage": 20,
+    "printedPage": "15",
+    "section": "Layer Two: Conceptual Conclusions",
+    "type": "essay",
+    "content": {
+      "heading": null,
+      "paragraphs": [
+        "This distinction exists because it’s more important to understand the decision than to use a word that can sometimes be polarizing and triggering. The goal of this guidebook is to make it easier for more people to make the switch to veganism and/or a plant-based lifestyle; not to separate or shame anyone away. This is not about triggering people. People are triggered enough (especially with the current state of the world) - this is about providing such an irresistible alternative that is not only more affordable and accessible over time, but also makes you feel better.",
+        "I AM NOT VEGAN. I am plant-based. This means that if I’m in Italy and visit a farmer on a no-kill farm, I will 100% eat their mozzarella and gelato made from their cow's milk and have fresh eggs from their chickens. After living and working on different farms for 10 months in the South before returning to New York, I realized that it’s not about “not eating eggs” or “never eating cheese ever again.” It’s more about UNDERSTANDING WHY I have chosen to avoid the products that come from the egg and dairy industry as it currently stands.",
+        "I’ve been on this journey for over 7 years; I’ve realized that it’s more about not giving my PURCHASING POWER to the factory farm industry than it is about being militant toward my dietary decisions."
+      ],
+      "image": null,
+      "pullquote": null,
+      "cta": null
+    }
+  },
+  {
+    "physicalPage": 21,
+    "printedPage": null,
+    "section": "Layer Three: Switcharoozies",
+    "type": "divider",
+    "content": {
+      "title": "Layer Three: Switcharoozies"
+    }
+  },
+  {
+    "physicalPage": 22,
+    "printedPage": "16",
+    "section": "Layer Three: Switcharoozies",
+    "type": "essay",
+    "content": {
+      "heading": null,
+      "paragraphs": [
+        "This is the part where I teach you how to replace your current pantry/fridge items to make this process THAT MUCH EASIER. Here are some recipes we'll cover. I've included affiliate links in the main text to make the transition even easier if you don’t cook, don't have access to a kitchen, or prefer buying these products instead of making them. Again, this guidebook is focused on making things easier for you, not harder. Simply hover over the item at the top of the page eg: MILK BUTTER CHEESE and a link will take you to my Amazon affiliate page. This is how I keep this sustainable while providing free material.",
+        "Please email cosmickittyinspace@gmail.com with any questions about this.",
+        "Okay, now that that’s all out of the way, let’s go make your fridge and pantry cruelty-free!",
+        "THE FUN PART"
+      ],
+      "image": null,
+      "pullquote": null,
+      "cta": {
+        "label": "cosmickittyinspace@gmail.com",
+        "url": "mailto:cosmickittyinspace@gmail.com"
+      }
+    }
+  },
+  {
+    "physicalPage": 23,
+    "printedPage": "17",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Milk",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Oat Milk (Easiest)",
+          "ingredients": [
+            "1 cup rolled oats",
+            "4 cups cold water",
+            "Pinch of salt",
+            "Optional: 1–2 dates, vanilla, cinnamon"
+          ],
+          "steps": [
+            "Blend for only 20–30 seconds.",
+            "Strain through a nut milk bag or fine towel.",
+            "Refrigerate for up to 5 days."
+          ],
+          "tips": "Tip: Don't overblend or use warm water, or it can become slimy."
+        },
+        {
+          "name": "Cashew Milk (No Straining Needed)",
+          "ingredients": [
+            "1 cup raw cashews (soaked 2–4 hours or overnight)",
+            "4 cups water",
+            "Pinch of salt"
+          ],
+          "steps": [
+            "Blend for 1–2 minutes until completely smooth.",
+            "Because cashews blend so finely, you often don't need to strain them."
+          ],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 24,
+    "printedPage": "18",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Milk",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Coconut Milk",
+          "ingredients": [
+            "2 cups unsweetened shredded coconut",
+            "4 cups hot (not boiling) water"
+          ],
+          "steps": [
+            "Blend for 2–3 minutes and strain.",
+            "Great for curries, smoothies, and desserts."
+          ],
+          "tips": null
+        },
+        {
+          "name": "Sunflower Seed Milk",
+          "ingredients": [
+            "1 cup soaked sunflower seeds",
+            "4 cups water",
+            "Pinch of salt"
+          ],
+          "steps": [],
+          "tips": "A great nut-free option."
+        },
+        {
+          "name": "Soy Milk (Highest Protein)",
+          "ingredients": [],
+          "steps": [
+            "Soak 1 cup dried soybeans overnight.",
+            "Blend with 4–5 cups water.",
+            "Strain.",
+            "Boil gently for about 20 minutes, stirring often."
+          ],
+          "tips": "Soy milk takes a little more work because it needs to be cooked after blending. Soy milk is naturally high in protein and works well in cooking and baking."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 25,
+    "printedPage": "19",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Butter",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Homemade Vegan Butter",
+          "ingredients": [
+            "½ cup refined coconut oil (melted)",
+            "½ cup neutral oil (such as sunflower or avocado)",
+            "¼ cup unsweetened plant milk",
+            "1 teaspoon apple cider vinegar",
+            "½ teaspoon salt"
+          ],
+          "steps": [
+            "Blend until emulsified, pour into a container, and chill until firm."
+          ],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 26,
+    "printedPage": "20",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cheese",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Cashew \"Cheese\"",
+          "ingredients": [
+            "2 cups soaked cashews",
+            "¼ cup nutritional yeast",
+            "2 tablespoons lemon juice",
+            "1 clove garlic",
+            "½ teaspoon salt",
+            "Enough water for a creamy consistency"
+          ],
+          "steps": [],
+          "tips": "Use it as a dip, pasta sauce, or sandwich spread."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 27,
+    "printedPage": "21",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cream Cheese",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Classic Cashew Vegan Cream Cheese",
+          "ingredients": [
+            "1½ cups raw cashews",
+            "¼ cup water (add slowly)",
+            "2 tablespoons lemon juice",
+            "1 tablespoon apple cider vinegar",
+            "1 teaspoon white miso (optional, adds cheesy tang)",
+            "½ teaspoon salt",
+            "1 tablespoon nutritional yeast (optional)",
+            "1–2 tablespoons plant yogurt or sauerkraut brine (optional, for a cultured flavor)"
+          ],
+          "steps": [
+            "Soak cashews:",
+            "4–6 hours in cold water, or",
+            "20 minutes in boiling water.",
+            "Drain and rinse.",
+            "Blend everything until completely smooth and creamy.",
+            "Taste and adjust:",
+            "More lemon = tangier",
+            "More salt = cheesier",
+            "More water = softer spread",
+            "Refrigerate 2–4 hours to thicken."
+          ],
+          "tips": "Keeps about 5–7 days in the fridge."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 28,
+    "printedPage": "22",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cream Cheese",
+      "intro": "Flavor ideas:",
+      "variants": [
+        {
+          "name": "Herby",
+          "ingredients": [
+            "Fresh dill",
+            "Chives",
+            "Garlic",
+            "Black pepper"
+          ],
+          "steps": [],
+          "tips": null
+        },
+        {
+          "name": "Spicy",
+          "ingredients": [
+            "Jalapeño",
+            "Chili flakes",
+            "Smoked paprika"
+          ],
+          "steps": [],
+          "tips": null
+        },
+        {
+          "name": "Sweet",
+          "ingredients": [
+            "Maple syrup",
+            "Vanilla",
+            "Cinnamon",
+            "Berries"
+          ],
+          "steps": [],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 29,
+    "printedPage": "23",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cream Cheese",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Nut-Free Sunflower Seed Cream Cheese",
+          "ingredients": [
+            "1 cup raw sunflower seeds",
+            "¼ cup plant milk",
+            "2 tablespoons lemon juice",
+            "1 tablespoon apple cider vinegar",
+            "½ teaspoon salt",
+            "1 tablespoon nutritional yeast"
+          ],
+          "steps": [
+            "Soak seeds 4 hours; blend until smooth."
+          ],
+          "tips": "This is cheaper, allergy-friendly, and great for feeding groups."
+        },
+        {
+          "name": "High-Protein Tofu Cream Cheese",
+          "ingredients": [
+            "1 block silken or soft tofu",
+            "2 tablespoons lemon juice",
+            "1 tablespoon nutritional yeast",
+            "1 teaspoon apple cider vinegar",
+            "½ teaspoon salt",
+            "Garlic/herbs if desired"
+          ],
+          "steps": [
+            "Blend until creamy."
+          ],
+          "tips": "This is probably the easiest everyday version and has more protein than cashew cream cheese."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 30,
+    "printedPage": "24",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cottage Cheese",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Easy High-Protein Vegan Cottage Cheese (Tofu Version)",
+          "ingredients": [
+            "1 block (14 oz) extra-firm tofu",
+            "½ cup unsweetened vegan yogurt (soy works best)",
+            "2 tablespoons lemon juice",
+            "1 tablespoon nutritional yeast",
+            "1 tablespoon apple cider vinegar",
+            "½ teaspoon salt (adjust to taste)",
+            "1 tablespoon tahini or cashew butter (optional, adds richness)",
+            "1–2 tablespoons chopped herbs (chives, dill, parsley)"
+          ],
+          "steps": [
+            "Drain tofu and gently crumble it with your hands into small curds.",
+            "In a separate bowl, whisk yogurt, lemon juice, vinegar, nutritional yeast, salt, and tahini.",
+            "Fold the tofu crumbles into the creamy mixture.",
+            "Refrigerate for at least 30 minutes so the flavors blend."
+          ],
+          "tips": "Texture tip: Don’t mash the tofu too much—you want little \"curds\" like traditional cottage cheese. **For a fermented \"real cream cheese\" flavor, you can let the cashew version sit with a probiotic capsule or a spoonful of live vegan yogurt for 12–24 hours before refrigerating. It develops that tangy cultured taste similar to traditional cream cheese."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 31,
+    "printedPage": "25",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cottage Cheese",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Nut-Free, Soy-Free Version (Seed-Based)",
+          "ingredients": [
+            "1 cup soaked sunflower seeds",
+            "½ cup unsweetened plant milk",
+            "2 tablespoons lemon juice",
+            "1 tablespoon apple cider vinegar",
+            "½ teaspoon salt",
+            "½ cup mashed white beans or crumbled tofu alternative (for curd texture)"
+          ],
+          "steps": [
+            "Blend the creamy part, then mix with the chunky part."
+          ],
+          "tips": null
+        },
+        {
+          "name": "Sweet Cottage Cheese Bowl",
+          "ingredients": [
+            "Vegan cottage cheese",
+            "Berries",
+            "Hemp hearts",
+            "Chia seeds",
+            "Cinnamon",
+            "Maple syrup",
+            "Walnuts"
+          ],
+          "steps": [],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 32,
+    "printedPage": "26",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cottage Cheese",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Savory Cottage Cheese Bowl",
+          "ingredients": [
+            "Vegan cottage cheese",
+            "Cucumber",
+            "Tomato",
+            "Dill",
+            "Black pepper",
+            "Olive oil",
+            "Sprouts"
+          ],
+          "steps": [],
+          "tips": null
+        },
+        {
+          "name": "Protein Boost",
+          "ingredients": [],
+          "steps": [
+            "Use soy tofu + soy yogurt",
+            "Add hemp hearts",
+            "Add nutritional yeast",
+            "Pair with legumes or whole grains"
+          ],
+          "tips": "If you're aiming for a whole-food vegan \"athlete\" version:"
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 33,
+    "printedPage": "27",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Yogurt",
+      "intro": null,
+      "variants": [
+        {
+          "name": null,
+          "ingredients": [
+            "2 cups (480 ml) unsweetened soy milk (the kind made from just soybeans and water works best)",
+            "1 tablespoon plain vegan yogurt with live active cultures (or 1–2 probiotic capsules containing live cultures)",
+            "1 tablespoon tapioca starch or cornstarch (optional, for a thicker yogurt)",
+            "1 teaspoon maple syrup or sugar (optional, helps feed the cultures)"
+          ],
+          "steps": [
+            "Heat the milk",
+            "Pour the soy milk into a saucepan.",
+            "Whisk in the starch if using.",
+            "Heat to about 180°F (82°C), stirring occasionally.",
+            "Cool",
+            "Let the milk cool to 105–110°F (40–43°C).",
+            "Add the starter",
+            "Stir a few tablespoons of the cooled milk into the vegan yogurt until smooth.",
+            "Mix it back into the pot.",
+            "Incubate",
+            "Transfer to a clean glass jar.",
+            "Keep warm (105–110°F / 40–43°C) for 8–12 hours using:",
+            "a yogurt maker,",
+            "Instant Pot (Yogurt setting),",
+            "oven with the light on,",
+            "or a warm insulated cooler.",
+            "Refrigerate for at least 6 hours before eating."
+          ],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 34,
+    "printedPage": "28",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Yogurt",
+      "intro": "It will continue to thicken as it chills.",
+      "variants": [
+        {
+          "name": "Flavor Ideas",
+          "ingredients": [
+            "Vanilla + maple syrup",
+            "Blueberries + lemon zest",
+            "Mango + cardamom",
+            "Cinnamon + apple",
+            "Cocoa + peanut butter",
+            "Strawberry + basil"
+          ],
+          "steps": [],
+          "tips": null
+        },
+        {
+          "name": "For an Extra Thick \"Greek-Style\" Yogurt",
+          "ingredients": [],
+          "steps": [
+            "After chilling, line a strainer with cheesecloth or a nut milk bag and let the yogurt drain in the refrigerator for 2–6 hours. The longer it drains, the thicker it becomes."
+          ],
+          "tips": null
+        },
+        {
+          "name": "Best Milk Choices",
+          "ingredients": [
+            "Soy milk – highest protein, thickest and most reliable.",
+            "Coconut milk – rich and creamy but lower in protein.",
+            "Cashew milk – smooth and mild.",
+            "Oat or almond milk – can work but usually need additional thickeners for a creamy texture."
+          ],
+          "steps": [],
+          "tips": null
+        },
+        {
+          "name": "Storage",
+          "ingredients": [],
+          "steps": [
+            "Keeps in the refrigerator for 5–7 days.",
+            "Save 2 tablespoons from each batch to use as the starter for your next batch."
+          ],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 35,
+    "printedPage": "29",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Sour Cream",
+      "intro": "Vegan sour cream is one of the easiest dairy alternatives to make because the main goal is creaminess + tang. Here are a few versions depending on what you have.",
+      "variants": [
+        {
+          "name": "Classic Cashew Sour Cream (Closest to Dairy)",
+          "ingredients": [
+            "1 cup raw cashews",
+            "½ cup water (add slowly)",
+            "2 tablespoons lemon juice",
+            "1 tablespoon apple cider vinegar",
+            "½ teaspoon salt",
+            "1 tablespoon unsweetened vegan yogurt (optional, for extra tang)"
+          ],
+          "steps": [
+            "Soak cashews:",
+            "4–6 hours in water, or",
+            "20 minutes in hot water.",
+            "Drain and rinse.",
+            "Blend everything until completely smooth and silky.",
+            "Chill for 1–2 hours to thicken."
+          ],
+          "tips": "Flavor adjustment: More lemon = brighter. More vinegar = sharper sour cream flavor. More salt = more \"dairy-like\"."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 36,
+    "printedPage": "30",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Sour Cream",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Nut-Free Sunflower Sour Cream",
+          "ingredients": [
+            "1 cup raw sunflower seeds",
+            "½ cup water",
+            "2 tablespoons lemon juice",
+            "1 tablespoon apple cider vinegar",
+            "½ teaspoon salt",
+            "1 tablespoon nutritional yeast (optional)"
+          ],
+          "steps": [
+            "Soak seeds → blend → chill."
+          ],
+          "tips": "Great for allergy-friendly cooking classes."
+        },
+        {
+          "name": "High-Protein Tofu Sour Cream (Fastest)",
+          "ingredients": [
+            "1 block silken tofu",
+            "2 tablespoons lemon juice",
+            "1 tablespoon apple cider vinegar",
+            "½ teaspoon salt",
+            "1 tablespoon tahini (optional)"
+          ],
+          "steps": [
+            "Blend until smooth."
+          ],
+          "tips": "This is great for: tacos, baked potatoes, chili, vegan stroganoff, dips"
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 37,
+    "printedPage": "31",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Sour Cream",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Cultured Coconut Sour Cream (Most Traditional Flavor)",
+          "ingredients": [
+            "1 can full-fat coconut cream",
+            "2 tablespoons lemon juice",
+            "1 tablespoon apple cider vinegar",
+            "Pinch of salt"
+          ],
+          "steps": [
+            "Blend and refrigerate overnight."
+          ],
+          "tips": "(The coconut flavor can be reduced by adding more tang and herbs.)"
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 38,
+    "printedPage": "32",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Mayo",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Classic Vegan Mayo (Aquafaba Version)",
+          "ingredients": [
+            "¼ cup aquafaba (liquid from a can of chickpeas)",
+            "1 cup neutral oil (avocado, sunflower, grapeseed, or canola)",
+            "1 tablespoon lemon juice",
+            "1 teaspoon apple cider vinegar",
+            "½ teaspoon Dijon mustard",
+            "½ teaspoon salt"
+          ],
+          "steps": [
+            "Add aquafaba, lemon juice, vinegar, mustard, and salt to a tall jar.",
+            "Use an immersion blender and blend for 10–15 seconds.",
+            "Slowly drizzle in oil while blending.",
+            "Keep blending until thick and creamy.",
+            "Refrigerate for at least 30 minutes to firm up."
+          ],
+          "tips": "(Closest to traditional mayo) Keeps about 1 week in the fridge."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 39,
+    "printedPage": "33",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Mayo",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Whole-Food Vegan Mayo (No Refined Oil)",
+          "ingredients": [
+            "½ cup soaked cashews",
+            "¼ cup unsweetened soy milk",
+            "1 tablespoon lemon juice",
+            "1 tablespoon apple cider vinegar",
+            "1 teaspoon Dijon mustard",
+            "½ teaspoon salt"
+          ],
+          "steps": [
+            "Blend until silky smooth."
+          ],
+          "tips": "This is more like a cashew aioli/spread and works beautifully in: sandwiches, wraps, potato salad, coleslaw, vegan tuna salad."
+        },
+        {
+          "name": "Flavor upgrades",
+          "ingredients": [
+            "Garlic aioli: add roasted garlic",
+            "Chipotle mayo: add smoked paprika + chipotle",
+            "Ranch mayo: add dill, parsley, garlic, onion powder",
+            "Lemon herb mayo: add fresh herbs + extra lemon"
+          ],
+          "steps": [],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 40,
+    "printedPage": "34",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Tzatziki",
+      "intro": "Vegan tzatziki is one of the easiest dairy-free sauces to make. It’s basically a creamy cucumber-herb sauce with yogurt, garlic, lemon, and dill.",
+      "variants": [
+        {
+          "name": "Classic Vegan Tzatziki",
+          "ingredients": [
+            "1 cup unsweetened vegan yogurt (soy works best for protein; coconut works for richness)",
+            "½ large cucumber, grated",
+            "1–2 cloves garlic, minced",
+            "2 tablespoons lemon juice",
+            "1 tablespoon olive oil",
+            "2 tablespoons fresh dill (or 1 teaspoon dried)",
+            "1 tablespoon fresh mint (optional)",
+            "½ teaspoon salt",
+            "Black pepper to taste"
+          ],
+          "steps": [
+            "Grate cucumber.",
+            "Squeeze out as much water as possible using a clean towel (this prevents watery tzatziki).",
+            "Mix yogurt, cucumber, garlic, lemon, olive oil, herbs, salt, and pepper.",
+            "Let sit in the fridge for 30 minutes–2 hours so the flavors develop."
+          ],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 41,
+    "printedPage": "35",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Tzatziki",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Whole-Food Vegan Tzatziki (No Store-Bought Yogurt)",
+          "ingredients": [
+            "1 cup soaked cashews",
+            "½ cup water",
+            "2 tablespoons lemon juice",
+            "1 tablespoon apple cider vinegar",
+            "1 clove garlic",
+            "½ teaspoon salt"
+          ],
+          "steps": [
+            "Then stir in:",
+            "½ grated cucumber (squeezed dry)",
+            "Dill",
+            "Mint"
+          ],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 42,
+    "printedPage": "36",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Ranch",
+      "intro": "Vegan Ranch is actually very easy to make. The secret is creating the creamy base + tang + herbs + garlic/onion flavor that dairy ranch gets from buttermilk and seasonings.",
+      "variants": [
+        {
+          "name": "Classic Vegan Ranch Dressing",
+          "ingredients": [
+            "1 cup unsweetened vegan yogurt (soy yogurt works great)",
+            "¼ cup vegan mayo (optional, makes it richer)",
+            "1–2 tablespoons lemon juice",
+            "1 tablespoon apple cider vinegar",
+            "1 teaspoon Dijon mustard",
+            "1 teaspoon garlic powder (or 1 fresh garlic clove)",
+            "1 teaspoon onion powder",
+            "1 teaspoon dried dill (or 1 tablespoon fresh)",
+            "1 tablespoon fresh parsley, chopped",
+            "1 tablespoon fresh chives, chopped",
+            "½ teaspoon salt",
+            "Black pepper to taste"
+          ],
+          "steps": [
+            "Mix everything.",
+            "Let sit in the fridge for 30 minutes so the herbs bloom."
+          ],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 43,
+    "printedPage": "37",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Caesar Dressing",
+      "intro": "Vegan Caesar dressing is one of the best dairy-free sauces because the “Caesar” flavor comes less from dairy and more from umami + garlic + lemon + creaminess. The traditional anchovy flavor can be recreated with capers, miso, or seaweed.",
+      "variants": [
+        {
+          "name": "Vegan Caesar Dressing (Cashew-Based)",
+          "ingredients": [
+            "1 cup raw cashews (soaked 4–6 hours or boiled 15–20 minutes)",
+            "½ cup water",
+            "2 tablespoons lemon juice",
+            "1 tablespoon apple cider vinegar",
+            "1 tablespoon capers (or 1 teaspoon caper brine)",
+            "1 tablespoon white miso (optional but adds amazing umami)",
+            "1–2 cloves garlic",
+            "2 tablespoons nutritional yeast",
+            "1 teaspoon Dijon mustard",
+            "½ teaspoon salt",
+            "Black pepper to taste"
+          ],
+          "steps": [
+            "Drain and rinse soaked cashews.",
+            "Blend everything until silky smooth.",
+            "Adjust:",
+            "More lemon = brighter",
+            "More capers/miso = more “anchovy” depth",
+            "More water = thinner dressing",
+            "Chill for 30 minutes before serving."
+          ],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 44,
+    "printedPage": "38",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Caesar Dressing",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Nut-Free Vegan Caesar",
+          "ingredients": [
+            "½ block silken tofu",
+            "¼ cup sunflower seeds (soaked)",
+            "2 tablespoons lemon juice",
+            "1 tablespoon capers",
+            "1 tablespoon nutritional yeast",
+            "1 teaspoon Dijon",
+            "1 garlic clove",
+            "Salt + pepper"
+          ],
+          "steps": [
+            "Blend until creamy."
+          ],
+          "tips": null
+        },
+        {
+          "name": "Extra “Restaurant-Style” Caesar Flavor",
+          "ingredients": [
+            "½ teaspoon dulse flakes or crushed nori (for ocean umami)",
+            "A splash of tamari",
+            "Roasted garlic instead of raw garlic"
+          ],
+          "steps": [],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 45,
+    "printedPage": "39",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Aioli",
+      "intro": "A vegan aioli alternative is basically a creamy garlic sauce. Traditional aioli is an emulsion of garlic + oil (often with egg in modern versions), so the vegan versions recreate the richness with nuts, seeds, tofu, or beans.",
+      "variants": [
+        {
+          "name": "Classic Vegan Garlic Aioli (Cashew)",
+          "ingredients": [
+            "1 cup raw cashews (soaked 4–6 hours or boiled 15–20 minutes)",
+            "½ cup water",
+            "2–3 cloves garlic",
+            "2 tablespoons lemon juice",
+            "1 tablespoon olive oil",
+            "1 teaspoon Dijon mustard",
+            "½ teaspoon salt",
+            "Black pepper"
+          ],
+          "steps": [
+            "Soak and drain cashews.",
+            "Blend everything until silky smooth.",
+            "Chill for 30 minutes to thicken."
+          ],
+          "tips": null
+        },
+        {
+          "name": "Great for",
+          "ingredients": [
+            "roasted potatoes 🥔",
+            "veggie burgers 🍔",
+            "sandwiches",
+            "fries",
+            "grilled vegetables"
+          ],
+          "steps": [],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 46,
+    "printedPage": "40",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Aioli",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Nut-Free Sunflower Aioli",
+          "ingredients": [
+            "1 cup soaked sunflower seeds",
+            "½ cup water",
+            "2 cloves garlic",
+            "2 tablespoons lemon juice",
+            "1 tablespoon olive oil",
+            "½ teaspoon salt"
+          ],
+          "steps": [
+            "Blend until creamy."
+          ],
+          "tips": null
+        },
+        {
+          "name": "Flavor variations",
+          "ingredients": [
+            "Herb aioli: parsley + basil + dill",
+            "Spicy aioli: smoked paprika + chili flakes",
+            "Lemon pepper aioli: extra lemon zest + cracked pepper",
+            "Olive aioli: blend in chopped olives or capers",
+            "Roasted garlic aioli: roast garlic first for a sweeter flavor"
+          ],
+          "steps": [],
+          "tips": null
+        },
+        {
+          "name": null,
+          "ingredients": [],
+          "steps": [],
+          "tips": "For a whole-food vegan “mother sauce” collection, aioli is a great base because you can turn the same creamy mixture into ranch, Caesar, chipotle sauce, garlic spread, or sandwich mayo just by changing the seasonings."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 47,
+    "printedPage": "41",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Ricotta",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Easy Vegan Ricotta",
+          "ingredients": [
+            "1½ cups raw cashews, soaked 2–4 hours and drained",
+            "½ cup firm or extra-firm tofu, pressed",
+            "2 tbsp nutritional yeast",
+            "1 tbsp lemon juice",
+            "1 tbsp apple cider vinegar",
+            "½ tsp garlic powder",
+            "½ tsp salt",
+            "2–4 tbsp water, as needed",
+            "1 tbsp olive oil (optional, for extra richness)"
+          ],
+          "steps": [
+            "Add everything except the water to a food processor.",
+            "Pulse several times rather than blending continuously. You want crumbly, ricotta-like curds, not a completely smooth paste.",
+            "Add water 1 tablespoon at a time until it reaches your preferred consistency.",
+            "Taste and adjust:",
+            "More lemon → tangier",
+            "More nutritional yeast → cheesier",
+            "More salt → more savory",
+            "More olive oil → richer",
+            "Refrigerate for 30–60 minutes before using. It firms up beautifully."
+          ],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 48,
+    "printedPage": "42",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Hollandaise",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Hollandaise",
+          "ingredients": [
+            "½ cup raw cashews, soaked 2–4 hours and drained",
+            "½ cup unsweetened plant milk",
+            "2 tbsp nutritional yeast",
+            "1 tbsp lemon juice",
+            "1 tsp Dijon mustard",
+            "½ tsp turmeric — mostly for that gorgeous yellow color",
+            "½ tsp garlic powder",
+            "½ tsp salt",
+            "¼ tsp black pepper",
+            "1 tbsp vegan butter, melted",
+            "1 tsp apple cider vinegar",
+            "1–2 tbsp water, as needed"
+          ],
+          "steps": [
+            "Blend: Add everything to a high-speed blender.",
+            "Blend until silky smooth, adding water 1 tbsp at a time if it's too thick.",
+            "Warm: Pour into a small saucepan and heat over low heat, whisking constantly for 2–4 minutes.",
+            "Don't let it boil—the sauce can become too thick or separate.",
+            "Taste and adjust the lemon, salt, and Dijon until it's bright and tangy."
+          ],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 49,
+    "printedPage": "43",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Gravy",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Easy Gravy",
+          "ingredients": [
+            "2 tbsp vegan butter or olive oil",
+            "2 tbsp all-purpose flour",
+            "1½ cups vegetable broth",
+            "1 tbsp soy sauce or tamari",
+            "1 tsp nutritional yeast",
+            "½ tsp onion powder",
+            "½ tsp garlic powder",
+            "¼ tsp dried thyme",
+            "¼ tsp black pepper",
+            "Salt, to taste"
+          ],
+          "steps": [
+            "Make the roux: Melt the vegan butter over medium heat. Whisk in the flour and cook for 1–2 minutes, stirring constantly.",
+            "Add broth slowly: Gradually whisk in the vegetable broth to avoid lumps.",
+            "Season: Add soy sauce, nutritional yeast, onion powder, garlic powder, thyme, and pepper.",
+            "Simmer: Cook for 5–8 minutes, whisking occasionally, until thick and glossy.",
+            "Taste: Add more soy sauce for depth or salt if needed."
+          ],
+          "tips": null
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 50,
+    "printedPage": "44",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cashew Alternatives",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Sunflower Seeds (Best All-Around Cashew Replacement)",
+          "ingredients": [
+            "Nut-free",
+            "Affordable",
+            "Mild flavor",
+            "High in vitamin E, magnesium, and healthy fats"
+          ],
+          "steps": [
+            "1 cup cashews → 1 cup soaked sunflower seeds"
+          ],
+          "tips": "Best for: cream cheese, sour cream, ranch, cheese sauces, aioli. Tip: Soak 4–6 hours or boil 15 minutes."
+        },
+        {
+          "name": "White Beans (Budget + High Protein)",
+          "ingredients": [
+            "Cannellini beans",
+            "Great Northern beans",
+            "Navy beans",
+            "1 cup cooked white beans",
+            "¼–½ cup plant milk",
+            "Lemon juice",
+            "Garlic",
+            "Nutritional yeast",
+            "Salt"
+          ],
+          "steps": [],
+          "tips": "Best for: creamy sauces, dips, Alfredo, hummus-style spreads. Creates a surprisingly creamy texture."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": [
+      51,
+      52
+    ],
+    "printedPage": "45–46",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cashew Alternatives",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Silken Tofu (Highest Protein)",
+          "ingredients": [
+            "More protein than cashews",
+            "Very neutral",
+            "Cheap",
+            "No soaking",
+            "1 block silken tofu",
+            "Lemon",
+            "Vinegar",
+            "Salt",
+            "Seasonings"
+          ],
+          "steps": [],
+          "tips": "Best for: sour cream, mayo, ranch, desserts, mousse"
+        },
+        {
+          "name": "Macadamia Nuts (Luxury Cashew Substitute)",
+          "ingredients": [
+            "Extremely creamy",
+            "Mild flavor",
+            "Rich texture"
+          ],
+          "steps": [],
+          "tips": "Best for: cheesecake, cream sauces, fancy desserts. Cons: Usually more expensive."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 53,
+    "printedPage": "47",
+    "section": "Layer Three: Switcharoozies",
+    "type": "recipe",
+    "content": {
+      "title": "Cashew Alternatives",
+      "intro": null,
+      "variants": [
+        {
+          "name": "Hemp Hearts",
+          "ingredients": [
+            "Complete protein",
+            "Omega-3 fats",
+            "No soaking needed",
+            "½ cup hemp hearts",
+            "½ cup water",
+            "Lemon",
+            "Salt"
+          ],
+          "steps": [],
+          "tips": "Best for: sauces, dressings, smoothies"
+        },
+        {
+          "name": "Coconut (Creamiest but Has Flavor)",
+          "ingredients": [
+            "Full-fat coconut milk",
+            "Coconut cream"
+          ],
+          "steps": [],
+          "tips": "Best for: curries, desserts, whipped creams. Not ideal when you want a neutral “cheese” flavor."
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 54,
+    "printedPage": "48",
+    "section": "A-Z New Pantry Additions",
+    "type": "essay",
+    "content": {
+      "heading": "A-Z New Pantry Additions",
+      "paragraphs": [
+        "Now that you’ve swapped out some (if not all) of your condiments, sauces, and bases (milk, eggs, butter), let's look at some pantry additions you can start acquiring.",
+        "Don’t feel like you have to buy ALL of these at once. Move slowly and start with the ones that call out to you. There are also great websites that offer recipes to help with this transition.",
+        "Please refer to page 80 for recipes.",
+        "I made this guide to make this transition as convenient as possible, including how much it costs.",
+        "To support me, you can click on the Amazon links that I have included below as recommended products to aid in your transition. As an Amazon Associate, I earn from qualifying purchases, which helps fund future e-book guides and research."
+      ],
+      "image": null,
+      "pullquote": null,
+      "cta": null
+    }
+  },
+  {
+    "physicalPage": 55,
+    "printedPage": "49",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "A",
+      "item": "Alfalfa Sprouts",
+      "intro": "Try it in:",
+      "uses": [
+        "sandwiches",
+        "salads",
+        "wraps",
+        "noodle bowls",
+        "avocado toast",
+        "veggie burgers"
+      ],
+      "tip": "Add alfalfa sprouts at the end of cooking to keep them fresh and crunchy.",
+      "shopLink": {
+        "label": "Shop Alfalfa Sprouts",
+        "url": "https://amzn.to/3SFvhgb"
+      }
+    }
+  },
+  {
+    "physicalPage": 56,
+    "printedPage": "50",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "B",
+      "item": "Beans + Black Salt",
+      "intro": "Stock:",
+      "uses": [
+        "Chickpeas",
+        "Black beans",
+        "Kidney beans",
+        "Cannellini beans",
+        "Lentils",
+        "Pinto beans"
+      ],
+      "note": "Protein + fiber foundation.",
+      "also": [
+        "Black Salt"
+      ],
+      "shopLink": {
+        "label": "Shop Blacksalt",
+        "url": "https://amzn.to/3UnOyTU"
+      }
+    }
+  },
+  {
+    "physicalPage": 57,
+    "printedPage": "51",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "C",
+      "item": "Cashews",
+      "description": "The vegan “cream maker.”",
+      "intro": "Use for:",
+      "uses": [
+        "cream cheese",
+        "sour cream",
+        "Alfredo sauce",
+        "cheesecake",
+        "aioli"
+      ],
+      "also": [
+        "Coconut milk",
+        "Cacao",
+        "Chia seeds"
+      ],
+      "shopLink": {
+        "label": "Shop Cashews",
+        "url": "https://amzn.to/4x5dRaY"
+      }
+    }
+  },
+  {
+    "physicalPage": 58,
+    "printedPage": "52",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "D",
+      "item": "Dates",
+      "intro": "Natural sweetener:",
+      "uses": [
+        "caramel sauces",
+        "energy balls",
+        "smoothies",
+        "desserts"
+      ],
+      "also": [
+        "Dulse flakes (ocean umami)"
+      ],
+      "shopLink": {
+        "label": "Shop Dates",
+        "url": "https://amzn.to/4iDnry4"
+      }
+    }
+  },
+  {
+    "physicalPage": 59,
+    "printedPage": "53",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "E",
+      "item": "Edamame",
+      "intro": "High-protein soybeans:",
+      "uses": [
+        "bowls",
+        "salads",
+        "stir fries",
+        "snacks"
+      ],
+      "shopLink": {
+        "label": "Shop Edamame",
+        "url": "https://amzn.to/3UBRwEg"
+      }
+    }
+  },
+  {
+    "physicalPage": 60,
+    "printedPage": "54",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "F",
+      "item": "Flaxseed",
+      "intro": "A vegan essential:",
+      "uses": [
+        "omega-3s",
+        "fiber",
+        "egg replacement (“flax egg”)"
+      ],
+      "shopLink": {
+        "label": "Shop Flaxseed",
+        "url": "https://amzn.to/4qRBqSR"
+      }
+    }
+  },
+  {
+    "physicalPage": 61,
+    "printedPage": "55",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "G",
+      "item": "Gochujang",
+      "intro": "Use it for:",
+      "uses": [
+        "Tofu marinades",
+        "Roasted vegetables",
+        "Noodles",
+        "Stir-fries",
+        "Rice bowls",
+        "Dumpling sauces"
+      ],
+      "shopLink": {
+        "label": "Shop Gochujang",
+        "url": "https://amzn.to/4d0h0l1"
+      }
+    }
+  },
+  {
+    "physicalPage": 62,
+    "printedPage": "56",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "H",
+      "item": "Hemp Hearts",
+      "intro": "Nutrient powerhouse:",
+      "uses": [
+        "complete protein",
+        "omega-3 fats",
+        "smoothies",
+        "oatmeal",
+        "sauces"
+      ],
+      "shopLink": {
+        "label": "Shop Hemp Hearts",
+        "url": "https://amzn.to/4ymppaW"
+      }
+    }
+  },
+  {
+    "physicalPage": 63,
+    "printedPage": "57",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "I",
+      "item": "Injera",
+      "description": "Injera — Ethiopian fermented flatbread, traditionally vegan",
+      "uses": [],
+      "shopLink": {
+        "label": "Shop Injera",
+        "url": "https://amzn.to/4djSRWH"
+      }
+    }
+  },
+  {
+    "physicalPage": 64,
+    "printedPage": "58",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "J",
+      "item": "Jackfruit",
+      "intro": "Great texture for:",
+      "uses": [
+        "pulled “pork”",
+        "tacos",
+        "BBQ sandwiches"
+      ],
+      "note": "(Low protein, so pair with beans/tofu.)",
+      "shopLink": {
+        "label": "Shop Jackfruit",
+        "url": "https://amzn.to/3Ta08BC"
+      }
+    }
+  },
+  {
+    "physicalPage": 65,
+    "printedPage": "59",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "K",
+      "item": "Kombu",
+      "intro": "A sea vegetable used for:",
+      "uses": [
+        "minerals",
+        "adding umami to beans and soups"
+      ],
+      "shopLink": {
+        "label": "Shop Kombu",
+        "url": "https://amzn.to/3UBPeFa"
+      }
+    }
+  },
+  {
+    "physicalPage": 66,
+    "printedPage": "61",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "L",
+      "item": "Legumes",
+      "intro": "Beyond beans:",
+      "uses": [
+        "lentils",
+        "split peas",
+        "chickpeas",
+        "lupini beans"
+      ],
+      "shopLink": {
+        "label": "Shop Lentils",
+        "url": "https://amzn.to/4h7L1BP"
+      }
+    }
+  },
+  {
+    "physicalPage": 67,
+    "printedPage": "62",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "M",
+      "item": "Miso",
+      "intro": "Fermented soybean paste:",
+      "uses": [
+        "soups",
+        "sauces",
+        "marinades",
+        "Caesar dressing",
+        "cheese flavor"
+      ],
+      "also": [
+        "Mushrooms",
+        "Molasses (iron-rich sweetener)"
+      ],
+      "shopLink": {
+        "label": "Shop Miso",
+        "url": "https://amzn.to/4ckl6UY"
+      }
+    }
+  },
+  {
+    "physicalPage": 68,
+    "printedPage": "63",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "N",
+      "item": "Nori",
+      "description": "Edible seaweed used in sushi, wraps, and snacks",
+      "uses": [],
+      "shopLink": {
+        "label": "Shop Nori",
+        "url": "https://amzn.to/4ygue5l"
+      }
+    }
+  },
+  {
+    "physicalPage": 69,
+    "printedPage": "64",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "O",
+      "item": "Oils + Oats",
+      "intro": "Choose:",
+      "uses": [
+        "Extra virgin olive oil",
+        "Avocado oil",
+        "Sesame oil"
+      ],
+      "also": [
+        "Oats (breakfast staple)"
+      ],
+      "shopLink": {
+        "label": "Shop Oats",
+        "url": "https://amzn.to/4xTlX7T"
+      }
+    }
+  },
+  {
+    "physicalPage": 70,
+    "printedPage": "65",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "P",
+      "item": "Pickled Protein",
+      "intro": "Keep:",
+      "uses": [
+        "Tofu",
+        "Tempeh",
+        "Seitan",
+        "Textured vegetable protein (TVP)"
+      ],
+      "also": [
+        "Pumpkin seeds",
+        "Psyllium husk"
+      ],
+      "shopLink": {
+        "label": null,
+        "url": null
+      },
+      "additionalItem": {
+        "item": "Pickled + Fermented Flavor Boosters",
+        "intro": "These are the “secret weapons”:",
+        "uses": [
+          "Sauerkraut",
+          "Pickled onions",
+          "Pickled jalapeños",
+          "Kimchi (vegan)",
+          "Fermented hot sauce",
+          "Preserved lemons",
+          "Capers",
+          "Olives"
+        ]
+      }
+    }
+  },
+  {
+    "physicalPage": 71,
+    "printedPage": "66",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "Q",
+      "item": "Quinoa",
+      "intro": "Complete protein grain:",
+      "uses": [
+        "bowls",
+        "salads",
+        "breakfast porridge"
+      ],
+      "shopLink": {
+        "label": "Shop Quinoa",
+        "url": "https://amzn.to/4iDfw3O"
+      }
+    }
+  },
+  {
+    "physicalPage": 72,
+    "printedPage": "67",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "R",
+      "item": "Rutabaga",
+      "description": "Rutabaga — earthy, slightly sweet root vegetable",
+      "uses": [],
+      "shopLink": {
+        "label": "Shop Rutabaga",
+        "url": "https://amzn.to/4gGBZuc"
+      }
+    }
+  },
+  {
+    "physicalPage": 73,
+    "printedPage": "68",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "S",
+      "item": "Seeds",
+      "uses": [
+        "Chia",
+        "Flax",
+        "Pumpkin",
+        "Sunflower"
+      ],
+      "shopLinks": [
+        {
+          "label": "Shop Chia Seeds",
+          "url": "https://amzn.to/4xzM1Vb"
+        },
+        {
+          "label": "Shop Flax Seeds",
+          "url": "https://amzn.to/4xzxMzz"
+        },
+        {
+          "label": "Shop Pumpkin Seeds",
+          "url": "https://amzn.to/4zNJQz3"
+        },
+        {
+          "label": "Shop Sunflower Seeds",
+          "url": "https://amzn.to/4gLdf3Q"
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 74,
+    "printedPage": "69",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "T",
+      "item": "Tahini",
+      "intro": "Sesame paste:",
+      "uses": [
+        "hummus",
+        "dressings",
+        "sauces",
+        "desserts"
+      ],
+      "shopLink": {
+        "label": "Shop Tahini",
+        "url": "https://amzn.to/4qSbbf5"
+      }
+    }
+  },
+  {
+    "physicalPage": 75,
+    "printedPage": "70",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "U",
+      "item": "Umibudo",
+      "description": "Umibudō (海ぶどう), meaning “sea grapes,” is a type of edible green seaweed traditionally enjoyed in Okinawan and Japanese cuisine. It gets its nickname from its tiny, translucent, grape-like bubbles that pop pleasantly in your mouth",
+      "uses": [
+        "salads",
+        "rice bowls",
+        "sushi",
+        "dipping sauces",
+        "poke bowls"
+      ],
+      "also": [
+        "Sea grapes / edible seaweed"
+      ],
+      "shopLink": {
+        "label": "Shop Umibudo",
+        "url": "https://amzn.to/4xA9N3k"
+      }
+    }
+  },
+  {
+    "physicalPage": 76,
+    "printedPage": "71",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "V",
+      "item": "Vital Wheat Gluten",
+      "intro": "Try it in:",
+      "uses": [
+        "seitan",
+        "vegan “steaks”",
+        "deli slices",
+        "sausages",
+        "“chicken” strips"
+      ],
+      "shopLink": {
+        "label": "Shop Vital Wheat Gluten",
+        "url": "https://amzn.to/4gO6uhY"
+      }
+    }
+  },
+  {
+    "physicalPage": 77,
+    "printedPage": "72",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "W",
+      "item": "Walnuts",
+      "intro": "Great for:",
+      "uses": [
+        "omega-3 fats",
+        "vegan “meat” crumbles",
+        "pesto",
+        "desserts"
+      ],
+      "shopLink": {
+        "label": "Shop Walnuts",
+        "url": "https://amzn.to/4h5Lbtw"
+      }
+    }
+  },
+  {
+    "physicalPage": 78,
+    "printedPage": "73",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "X",
+      "item": "Xanthan Gum",
+      "uses": [
+        "gluten-free baking",
+        "vegan sauces",
+        "dressings",
+        "gravies",
+        "ice cream",
+        "smoothies",
+        "egg-free baking",
+        "binding & thickening",
+        "plant-based thickener & stabilizer"
+      ],
+      "shopLink": {
+        "label": "Shop Xanthan Gum",
+        "url": "https://amzn.to/3UUaCFL"
+      }
+    }
+  },
+  {
+    "physicalPage": 79,
+    "printedPage": "74",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "Y",
+      "item": "Yeast & Yogurt",
+      "uses": [
+        "Vegan yogurt with live cultures",
+        "Brewer’s yeast",
+        "Bread",
+        "Pizza dough",
+        "Cinnamon rolls",
+        "Vegan cheese",
+        "Baked goods",
+        "Natural leavening & fermentation agent"
+      ],
+      "shopLinks": [
+        {
+          "label": "Shop Yeast",
+          "url": "https://amzn.to/4gxaPam"
+        },
+        {
+          "label": "Shop Yogurt",
+          "url": "https://amzn.to/4iHpa5o"
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 80,
+    "printedPage": "75",
+    "section": "A-Z New Pantry Additions",
+    "type": "pantry-letter",
+    "content": {
+      "letter": "Z",
+      "item": "Zucchini & Za’atar",
+      "note": "(Not pantry-only, but great vegan staples)",
+      "uses": [
+        "Zucchini for noodles, fritters, soups",
+        "Za’atar for instant Middle Eastern flavor"
+      ],
+      "shopLinks": [
+        {
+          "label": "Shop Zucchini",
+          "url": "https://amzn.to/4xwdAyD"
+        },
+        {
+          "label": "Shop Za’atar",
+          "url": "https://amzn.to/4cotfaX"
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 81,
+    "printedPage": "76",
+    "section": "Vitamin B12",
+    "type": "essay",
+    "content": {
+      "heading": "BUT WHAT ABOUT VITAMIN B12?",
+      "paragraphs": [
+        "The myth that you can “only get B12 from animal products” must be debunked. B12 actually comes from microbes, not animals!",
+        "Animals don't magically create B12. Certain microorganisms make it. Animals acquire B12 through their food and microbial communities, while humans can get it directly from B12-producing microorganisms through fortified foods and supplements.",
+        "So where does B12 come from?",
+        "Vitamin B12 is made by certain microorganisms—mainly bacteria and archaea. Plants and animals don't manufacture B12 themselves. Historically, animals get B12 by consuming microorganisms or foods contaminated with B12-producing microbes, and then B12 accumulates in their tissues. In modern food systems, animals also commonly receive B12 supplements, so the B12 found in meat, milk, and eggs ultimately comes from microbial production anyway."
+      ],
+      "image": null,
+      "pullquote": null,
+      "cta": null
+    }
+  },
+  {
+    "physicalPage": 82,
+    "printedPage": "77",
+    "section": "Vitamin B12",
+    "type": "essay",
+    "content": {
+      "heading": "Why don't plants have B12?",
+      "paragraphs": [
+        "Plants generally don't need B12 for their own biology, so they don't produce or store it. That's why ordinary fruits, vegetables, grains, beans, nuts, and seeds aren't reliable B12 sources.",
+        "Some algae and fermented foods can contain B12 or B12-like compounds, but their amounts and forms can be inconsistent.",
+        "The fascinating vegan takeaway",
+        "B12 isn't really an “animal vitamin.” It's a microbial vitamin. That's why vegans can get B12 from fortified plant foods or B12 supplements without needing animals as the middleman.",
+        "Adults need about 2.4 mcg of vitamin B12 per day. Pregnant people need 2.6 mcg, and breastfeeding people need 2.8 mcg.",
+        "mcg stands for microgram (also written µg). It’s a very small unit of weight: 1 microgram (mcg) = 1/1,000,000 of a gram. 1,000 mcg = 1 milligram (mg).",
+        "So 2.4 mcg of B12 is a tiny amount — but B12 is a vitamin the body needs in very small quantities."
+      ],
+      "image": null,
+      "pullquote": null,
+      "cta": null
+    }
+  },
+  {
+    "physicalPage": 83,
+    "printedPage": "78",
+    "section": "Vitamin B12",
+    "type": "essay",
+    "content": {
+      "heading": null,
+      "paragraphs": [
+        "CHEWABLE OPTIONS",
+        "HTTPS://AMZN.TO/4663JNI",
+        "TABLET OPTION",
+        "HTTPS://AMZN.TO/4GQNCUI"
+      ],
+      "image": null,
+      "pullquote": null,
+      "cta": null
+    }
+  },
+  {
+    "physicalPage": 84,
+    "printedPage": "79",
+    "section": "Vitamin B12",
+    "type": "table",
+    "content": {
+      "title": null,
+      "headers": [
+        "Nutrient",
+        "Plant-Powered MVPs"
+      ],
+      "rows": [
+        [
+          "A",
+          "Carrots • sweet potatoes • leafy greens"
+        ],
+        [
+          "B12",
+          "Supplements • fortified foods"
+        ],
+        [
+          "Calcium",
+          "Fortified plant milk • tofu • tahini"
+        ],
+        [
+          "D",
+          "Fortified foods • mushrooms • supplements"
+        ],
+        [
+          "Iron",
+          "Lentils • beans • tofu • seeds"
+        ],
+        [
+          "Fiber",
+          "Beans • lentils • chia • berries"
+        ],
+        [
+          "Iodine",
+          "Iodized salt • carefully selected seaweed"
+        ],
+        [
+          "K",
+          "Kale • collards • broccoli"
+        ],
+        [
+          "Magnesium",
+          "Pumpkin seeds • beans • greens"
+        ],
+        [
+          "Omega-3",
+          "Flax • chia • walnuts • algae"
+        ],
+        [
+          "Protein",
+          "Tofu • tempeh • beans • lentils • seitan"
+        ],
+        [
+          "Zinc",
+          "Seeds • beans • tofu • nuts"
+        ]
+      ]
+    }
+  },
+  {
+    "physicalPage": 85,
+    "printedPage": "80",
+    "section": "Plant-Based Recipes",
+    "type": "table",
+    "content": {
+      "title": "Plant Based Recipes — Here are some websites that might help you on your journey toward a plant-based lifestyle.",
+      "headers": [
+        "#",
+        "Website",
+        "URL",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "1",
+          "Minimalist Baker",
+          "https://minimalistbaker.com/?utm_source=chatgpt.com",
+          "Simple, quick, few-ingredient recipes"
+        ],
+        [
+          "2",
+          "Nora Cooks",
+          "https://www.noracooks.com/?utm_source=chatgpt.com",
+          "Beginner-friendly comfort food"
+        ],
+        [
+          "3",
+          "The Vegan 8",
+          "https://thevegan8.com/?utm_source=chatgpt.com",
+          "Recipes with 8 ingredients or less"
+        ],
+        [
+          "4",
+          "Rainbow Plant Life",
+          "https://rainbowplantlife.com/?utm_source=chatgpt.com",
+          "Big-flavor meals + cooking tutorials"
+        ],
+        [
+          "5",
+          "Vegan Richa",
+          "https://www.veganricha.com/?utm_source=chatgpt.com",
+          "Indian food, curries & one-pot meals"
+        ]
+      ]
+    }
+  },
+  {
+    "physicalPage": 86,
+    "printedPage": "81",
+    "section": "Additional Resources",
+    "type": "link-list",
+    "content": {
+      "title": "ADDITIONAL RESOURCES",
+      "groups": [
+        {
+          "heading": "A FEW ANIMAL RIGHTS ORGANIZATIONS TO JOIN OR VOLUNTEER WITH",
+          "links": [
+            {
+              "label": "Direct Action Everywhere (DxE) — Grassroots animal-rights activism, local chapters, investigations, campaigns, and community organizing.",
+              "url": "https://www.directactioneverywhere.com/?utm_source=chatgpt.com"
+            },
+            {
+              "label": "Farm Sanctuary — Farmed-animal sanctuary work, education, advocacy, and hands-on volunteering.",
+              "url": "https://www.farmsanctuary.org/volunteer/"
+            },
+            {
+              "label": "Animal Equality — International farmed-animal advocacy, investigations, campaigns, and volunteer activism.",
+              "url": "https://animalequality.org/"
+            },
+            {
+              "label": "Animal Liberation — offers volunteering involving events, animal-rights education, outreach, research, and community organizing",
+              "url": "https://animalliberationnsw.squarespace.com/volunteer?utm_source=chatgpt.com"
+            },
+            {
+              "label": "Cube of Truth / Anonymous for the Voiceless (AV) — A Cube of Truth is a peaceful street-activism demonstration organized by Anonymous for the Voiceless, combining a silent “Cube” displaying footage of animal exploitation with an outreach team that speaks with members of the public.",
+              "url": "https://www.anonymousforthevoiceless.org/what-is-a-cube-of-truth"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 87,
+    "printedPage": "82",
+    "section": "Additional Resources",
+    "type": "link-list",
+    "content": {
+      "title": "SOME APPS & WEBSITES FOR FINDING VEGAN FOOD WORLDWIDE — WHETHER YOU’RE AT HOME, TRAVELING ACROSS THE COUNTRY, OR HALFWAY AROUND THE WORLD, THESE TOOLS CAN HELP YOU FIND PLANT-BASED FOOD NEARBY.",
+      "groups": [
+        {
+          "heading": "VEGAN-FOCUSED FOOD FINDERS",
+          "links": [
+            {
+              "label": "HAPPYCOW — THE GO-TO GLOBAL VEGAN & VEGETARIAN RESTAURANT FINDER. SEARCH BY LOCATION, CUISINE, DIETARY OPTIONS, REVIEWS, PHOTOS, AND MORE.",
+              "url": null
+            },
+            {
+              "label": "WHAT’S VEGAN — FIND VEGAN DISHES AND PLANT-BASED OPTIONS AT RESTAURANTS NEAR YOU — ESPECIALLY HELPFUL WHEN YOU’RE NOT NECESSARILY LOOKING FOR AN ENTIRELY VEGAN RESTAURANT.",
+              "url": null
+            },
+            {
+              "label": "VEGAN-FRIENDLY — DISCOVER VEGAN-FRIENDLY RESTAURANTS AND BUSINESSES AND EXPLORE PLACES THAT HAVE BEEN IDENTIFIED AS VEGAN-FRIENDLY.",
+              "url": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 88,
+    "printedPage": "83",
+    "section": "Additional Resources",
+    "type": "link-list",
+    "content": {
+      "title": "ADDITIONAL RESOURCES",
+      "groups": [
+        {
+          "heading": null,
+          "links": [
+            {
+              "label": "VEGANEATS BY GOVEGN — A VEGAN-FOCUSED RESTAURANT DISCOVERY APP FOR FINDING PLANT-BASED FOOD AND VEGAN-FRIENDLY PLACES.",
+              "url": null
+            },
+            {
+              "label": "VEGANMAPAI — AN AI-POWERED RESTAURANT FINDER DESIGNED TO HELP LOCATE VEGAN AND PLANT-BASED FOOD.",
+              "url": null
+            },
+            {
+              "label": "VEGIGO — A RESTAURANT FINDER FOCUSED ON VEGETARIAN AND VEGAN FOOD.",
+              "url": null
+            },
+            {
+              "label": "FOODAMED VEGAN RESTAURANT — A VEGAN RESTAURANT DISCOVERY APP FOR FINDING PLANT-BASED DINING OPTIONS.",
+              "url": null
+            },
+            {
+              "label": "SIMMER LIST — A NEWER PLANT-BASED FOOD MAP THAT HELPS YOU SEARCH FOR VEGAN FOOD BY CITY, NEIGHBORHOOD, CRAVING, OR RESTAURANT. IT ALSO DISTINGUISHES FULLY VEGAN RESTAURANTS FROM PLACES WITH VEGAN OPTIONS.",
+              "url": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 89,
+    "printedPage": "84",
+    "section": "Additional Resources",
+    "type": "link-list",
+    "content": {
+      "title": "ADDITIONAL RESOURCES",
+      "groups": [
+        {
+          "heading": null,
+          "links": [
+            {
+              "label": "VEGANFOODIEFINDER — A PLANT-BASED RESTAURANT DIRECTORY WHERE YOU CAN SEARCH BY LOCATION, CUISINE, DIETARY NEEDS, PRICE, MENUS, AND REVIEWS.",
+              "url": null
+            },
+            {
+              "label": "VEGANDELIVERY.COM — USEFUL WHEN YOU DON’T JUST WANT TO FIND VEGAN FOOD — YOU WANT IT DELIVERED. SEARCH FOR PLANT-BASED RESTAURANTS OFFERING DELIVERY OR PICKUP.",
+              "url": null
+            },
+            {
+              "label": "VEGAN MAPS — A VEGAN-FOCUSED MAP FOR FINDING VEGAN AND RAW RESTAURANTS AND CAFÉS.",
+              "url": null
+            },
+            {
+              "label": "VANILLA BEAN — PARTICULARLY USEFUL FOR VEGAN AND VEGETARIAN RESTAURANT DISCOVERY IN EUROPE AND WHILE TRAVELING.",
+              "url": null
+            },
+            {
+              "label": "VEGMAN — A COMMUNITY-BASED VEGETARIAN AND VEGAN RESTAURANT FINDER WITH LOCATIONS AROUND THE WORLD.",
+              "url": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 90,
+    "printedPage": "85",
+    "section": "Additional Resources",
+    "type": "link-list",
+    "content": {
+      "title": "ADDITIONAL RESOURCES",
+      "groups": [
+        {
+          "heading": "IF YOU’RE HAVING TROUBLE FINDING VEGAN RESTAURANTS, SEARCH FOR THE FOOD YOU ACTUALLY WANT. TRY:",
+          "links": [
+            {
+              "label": "VEGAN TACOS",
+              "url": null
+            },
+            {
+              "label": "VEGAN PIZZA",
+              "url": null
+            },
+            {
+              "label": "VEGAN RAMEN",
+              "url": null
+            },
+            {
+              "label": "VEGAN DUMPLINGS",
+              "url": null
+            },
+            {
+              "label": "VEGAN INDIAN FOOD",
+              "url": null
+            },
+            {
+              "label": "PLANT-BASED LUNCH",
+              "url": null
+            },
+            {
+              "label": "VEGAN BURGER",
+              "url": null
+            },
+            {
+              "label": "VEGAN BAKERY",
+              "url": null
+            },
+            {
+              "label": "VEGAN ICE CREAM",
+              "url": null
+            },
+            {
+              "label": "VEGAN COFFEE SHOP",
+              "url": null
+            },
+            {
+              "label": "PLANT-BASED RESTAURANT",
+              "url": null
+            },
+            {
+              "label": "VEGETARIAN RESTAURANT",
+              "url": null
+            },
+            {
+              "label": "YOU MAY FIND VEGAN OPTIONS AT RESTAURANTS THAT AREN’T EXCLUSIVELY VEGAN.",
+              "url": null
+            }
+          ]
+        },
+        {
+          "heading": "TRAVEL TIP",
+          "links": [
+            {
+              "label": "BEFORE HEADING SOMEWHERE, SAVE 2–3 OPTIONS INSTEAD OF RELYING ON ONE RESTAURANT.",
+              "url": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 91,
+    "printedPage": "86",
+    "section": "Additional Resources",
+    "type": "link-list",
+    "content": {
+      "title": "INSTAGRAM ACCOUNTS TO FOLLOW TO HELP ON YOUR JOURNEY",
+      "groups": [
+        {
+          "heading": "VEGAN CHEFS THAT I PERSONALLY FOLLOW",
+          "links": [
+            {
+              "label": "https://www.instagram.com/onegreatvegan/",
+              "url": "https://www.instagram.com/onegreatvegan/"
+            },
+            {
+              "label": "https://www.instagram.com/itslizmiu/",
+              "url": "https://www.instagram.com/itslizmiu/"
+            },
+            {
+              "label": "https://www.instagram.com/gauthierinsoho/",
+              "url": "https://www.instagram.com/gauthierinsoho/"
+            },
+            {
+              "label": "https://www.instagram.com/chefguyvaknin/",
+              "url": "https://www.instagram.com/chefguyvaknin/"
+            },
+            {
+              "label": "https://www.instagram.com/turnipvegan/",
+              "url": "https://www.instagram.com/turnipvegan/"
+            },
+            {
+              "label": "https://www.instagram.com/browngirlvegan_/",
+              "url": "https://www.instagram.com/browngirlvegan_/"
+            }
+          ]
+        },
+        {
+          "heading": "WEBSITES TO KNOW",
+          "links": [
+            {
+              "label": "https://vegnews.com/news",
+              "url": "https://vegnews.com/news"
+            },
+            {
+              "label": "https://simpleveganbytes.com/how-to-transition-to-a-vegan-diet/",
+              "url": "https://simpleveganbytes.com/how-to-transition-to-a-vegan-diet/"
+            },
+            {
+              "label": "https://challenge22.com/?utm_source=chatgpt.com",
+              "url": "https://challenge22.com/?utm_source=chatgpt.com"
+            },
+            {
+              "label": "https://vegan.com/info/?utm_source=chatgpt.com",
+              "url": "https://vegan.com/info/?utm_source=chatgpt.com"
+            },
+            {
+              "label": "https://nutritionfacts.org/?utm_source=chatgpt.com",
+              "url": "https://nutritionfacts.org/?utm_source=chatgpt.com"
+            },
+            {
+              "label": "https://carnism.org/?utm_source=chatgpt.com",
+              "url": "https://carnism.org/?utm_source=chatgpt.com"
+            }
+          ]
+        },
+        {
+          "heading": "CRUELTY-FREE GUIDES",
+          "links": [
+            {
+              "label": "https://www.crueltyfreekitty.com/?utm_source=chatgpt.com",
+              "url": "https://www.crueltyfreekitty.com/?utm_source=chatgpt.com"
+            },
+            {
+              "label": "https://www.leapingbunny.org/?utm_source=chatgpt.com",
+              "url": "https://www.leapingbunny.org/?utm_source=chatgpt.com"
+            },
+            {
+              "label": "https://ethicalelephant.com/product-brand-directory/?utm_source=chatgpt.com",
+              "url": "https://ethicalelephant.com/product-brand-directory/?utm_source=chatgpt.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "physicalPage": 92,
+    "printedPage": "87",
+    "section": "Worksheet",
+    "type": "worksheet",
+    "content": {
+      "title": "YOUR LAST... — THIS IS A PAGE DEDICATED TO “YOUR LAST” - WHEN I STOPPED EATING MEAT, I DIDN’T DO IT WITH AS MUCH ATTENTION AS I WOULD HAVE LIKED. I DON'T REMEMBER MY LAST STEAK, MY LAST HAMBURGER, MY LAST LOBSTER ROLL... ON ONE HAND, I MISS THESE FOOD ITEMS, BUT I PHYSICALLY CANNOT AND ALSO SPIRITUALLY DON’T WANT TO CONSUME THESE THINGS ANYMORE. USE THIS WORKSHEET AS A WAY TO HELP YOU SAY GOODBYE TO THESE FOOD ITEMS. YOUR LAST NON-VEGAN...",
+      "prompts": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  {
+    "physicalPage": 93,
+    "printedPage": "88",
+    "section": "About the Writer",
+    "type": "bio",
+    "content": {
+      "heading": "ABOUT THE WRITER",
+      "paragraphs": [
+        "ANA NOT ANA IS AN ELECTRONIC FOLK SINGER-SONGWRITER FOR THE UNDERDOGS. SHE CREATES COLLECTIVE EXPERIENCES THROUGH HER DIY SHOWS THAT PROMOTE DYNAMIC PARTICIPATION THROUGH DIALOGUE, ACTION, AND REFLECTION. WHEN SHE IS NOT MAKING OR PERFORMING MUSIC, SHE IS CREATING INTERDISCIPLINARY CURRICULUM FOR HER PLAYSPACE, LIBERATORY LEARNERS.",
+        "YOU CAN FOLLOW HER MUSIC JOURNEY THROUGH HTTPS://LINKTR.EE/ANANOTANAMUSIC",
+        "OR EMAIL HER AT COSMICKITTYINSPACE@GMAIL.COM"
+      ],
+      "image": "images/author-performance.jpg",
+      "email": "cosmickittyinspace@gmail.com"
+    }
+  },
+  {
+    "physicalPage": 94,
+    "printedPage": "89",
+    "section": "Closing",
+    "type": "closing",
+    "content": {
+      "text": "ON BEHALF OF THE ANIMALS AND OUR LIVED ENVIRONMENT, THANK YOU."
+    }
+  }
 ]
