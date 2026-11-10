@@ -3,3 +3,13 @@
 Thumbs.db
 *.pyc
 __pycache__/
+
+node_modules/
+build/
+.svelte-kit/
+*.log
+
+# each is its own git repo
+vegan-not-vegan/
+contact-capture/
+food-rescue/
