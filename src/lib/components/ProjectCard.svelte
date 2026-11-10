@@ -25,15 +25,18 @@
 
 	async function share() {
 		const payload = { title: name, text: item.manifest?.blurb || `${name} — a Cosmic Kitty project`, url: qrUrl };
-		try {
-			if (navigator.share) {
+		if (navigator.share) {
+			try {
 				await navigator.share(payload);
 				return;
+			} catch (e) {
+				if (e instanceof DOMException && e.name === 'AbortError') return;
 			}
+		}
+		try {
 			await navigator.clipboard.writeText(qrUrl);
 			showToast('Link copied');
-		} catch (e) {
-			if (e instanceof DOMException && e.name === 'AbortError') return;
+		} catch {
 			showToast('Could not share');
 		}
 	}
