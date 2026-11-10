@@ -31,7 +31,17 @@
 - [x] BASE_PATH=/ck build → npm run verify → preview at /ck/
 - [x] Commit "Add CK dashboard connecting the project repos"
 
+## Deploy (2026-11-10)
+- [x] Pages switched to build_type=workflow; Actions deploy green; live at https://wolfwdavid.github.io/ck/
+- [x] Project repos created + Pages enabled: ck-vegan-not-vegan, ck-contact-capture, ck-food-rescue (all 200, ck.json CORS-open)
+- [x] Live dashboard verified headlessly: 3 cards Live, GitHub blocks populated, flipbook/capture/sheet panels render, no page errors
+
+## Owner follow-ups
+- [ ] contact-capture: set `FORMSUBMIT_TARGET` in js/config.js, submit once + click the activation email, flip `configured` in ck.json
+- [ ] food-rescue: set `SHEET_ID` in js/config.js and `sheetId` in ck.json once the team's sheet exists
+- [ ] restyle pass once CK reacts to the first version
+
 ## Review
 - Local dev needs `npm run dev:siblings` (not `python -m http.server`): the dashboard fetches `ck.json` cross-origin, and only GitHub Pages / the Node helper send `Access-Control-Allow-Origin`.
-- The two new project repos do not exist on GitHub yet; the GitHub block shows "Repo not found yet" until they are created.
+- Before a project repo exists the GitHub block shows "Repo not found yet" and the card is Down; both resolve on the next 5-minute refresh once the site is published.
 - Each refresh costs up to 9 unauthenticated GitHub requests (3 per repo); unchanged responses come back 304 and do not count against the 60/hr limit.
