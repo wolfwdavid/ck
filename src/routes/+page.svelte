@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import ChatLog from '$lib/components/ChatLog.svelte';
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
 	import { dashboard } from '$lib/dashboard.svelte';
 	import { relativeTime } from '$lib/github';
@@ -38,9 +39,11 @@
 	</div>
 </header>
 
+<ChatLog notes={dashboard.notes} working={dashboard.working} error={dashboard.notesError} {now} />
+
 <main class="cards">
 	{#each dashboard.items as item (item.project.slug)}
-		<ProjectCard {item} {now} />
+		<ProjectCard {item} {now} working={dashboard.working === item.project.slug} />
 	{/each}
 </main>
 

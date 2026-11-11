@@ -3,6 +3,7 @@ import { fetchGithub, type GithubStatus } from './github';
 import { fetchFlipbook, type FlipbookSummary } from './live/flipbook';
 import { fetchBoard, type BoardSummary } from './live/sheet';
 import { parseManifest, type Manifest } from './manifest';
+import { fetchNotes, workingOn, type Note } from './notes';
 import { liveUrl, projects, type Project } from './projects';
 
 export type LivePanel =
@@ -57,13 +58,25 @@ class Dashboard {
 	items = $state<ProjectState[]>(projects.map(initial));
 	refreshedAt = $state<Date | null>(null);
 	loading = $state(false);
+	notes = $state<Note[]>([]);
+	notesError = $state('');
+	working = $derived(workingOn(this.notes));
 
 	async refresh() {
 		if (!browser || this.loading) return;
 		this.loading = true;
-		await Promise.all(this.items.map((item) => this.loadOne(item)));
+		await Promise.all([...this.items.map((item) => this.loadOne(item)), this.loadNotes()]);
 		this.refreshedAt = new Date();
 		this.loading = false;
+	}
+
+	private async loadNotes() {
+		try {
+			this.notes = await fetchNotes();
+			this.notesError = '';
+		} catch (e) {
+			this.notesError = message(e);
+		}
 	}
 
 	private async loadOne(item: ProjectState) {

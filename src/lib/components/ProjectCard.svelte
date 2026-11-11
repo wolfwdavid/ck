@@ -7,7 +7,7 @@
 	import SheetPanel from './SheetPanel.svelte';
 	import StatusPill from './StatusPill.svelte';
 
-	let { item, now }: { item: ProjectState; now: Date } = $props();
+	let { item, now, working = false }: { item: ProjectState; now: Date; working?: boolean } = $props();
 
 	let qrOverride = $state<string | null>(null);
 	let toast = $state('');
@@ -47,6 +47,9 @@
 		<h2 class="card-title" id="title-{item.project.slug}">{name}</h2>
 		{#if item.manifest?.version}
 			<span class="pill pill-version">v{item.manifest.version}</span>
+		{/if}
+		{#if working}
+			<span class="pill pill-working">Working on</span>
 		{/if}
 		<StatusPill status={item.status} />
 	</header>

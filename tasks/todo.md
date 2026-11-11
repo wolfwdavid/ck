@@ -45,3 +45,16 @@
 - Local dev needs `npm run dev:siblings` (not `python -m http.server`): the dashboard fetches `ck.json` cross-origin, and only GitHub Pages / the Node helper send `Access-Control-Allow-Origin`.
 - Before a project repo exists the GitHub block shows "Repo not found yet" and the card is Down; both resolve on the next 5-minute refresh once the site is published.
 - Each refresh costs up to 9 unauthenticated GitHub requests (3 per repo); unchanged responses come back 304 and do not count against the 60/hr limit.
+
+## Project log (2026-11-10)
+- [x] src/lib/notes.ts + tests: open issues on wolfwdavid/ck become notes; labels give the project and the working-on flag
+- [x] ChatLog panel above the cards (log, project picker, Send opens a prefilled GitHub issue); "Working on" pill on the active card
+- [x] Labels created on wolfwdavid/ck: working-on, vegan-not-vegan, contact-capture, food-rescue
+- [x] `npm run note -- -t "text" -b "" -l food-rescue -l working-on` posts from the terminal
+- [x] npm run check clean, npm test green (31), browser pass at 390px and 1280px with sample notes
+- [x] Commit and push to deploy
+
+### Review
+- The working-on project is the project label on the newest open issue that also carries `working-on`; closing an issue removes it from the log.
+- Only issues from the repo owner, members or collaborators are shown, so strangers cannot post to the dashboard.
+- One extra unauthenticated GitHub request per refresh; the log shows the newest 30 open notes.

@@ -57,7 +57,7 @@ function writeCache(url: string, entry: CacheEntry) {
 	}
 }
 
-async function fetchCached(url: string): Promise<Fetched> {
+export async function fetchCached(url: string): Promise<Fetched> {
 	const cached = readCache(url);
 	const headers: Record<string, string> = { Accept: 'application/vnd.github+json' };
 	if (cached?.etag) headers['If-None-Match'] = cached.etag;
@@ -112,8 +112,8 @@ export function relativeTime(iso: string, now: Date = new Date()): string {
 	return then.toLocaleDateString('en-US', opts);
 }
 
-const rec = (v: unknown): Record<string, any> => (typeof v === 'object' && v !== null ? (v as Record<string, any>) : {});
-const s = (v: unknown): string => (typeof v === 'string' ? v : '');
+export const rec = (v: unknown): Record<string, any> => (typeof v === 'object' && v !== null ? (v as Record<string, any>) : {});
+export const s = (v: unknown): string => (typeof v === 'string' ? v : '');
 
 export async function fetchGithub(repo: string): Promise<GithubStatus> {
 	try {
