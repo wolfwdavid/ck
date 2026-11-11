@@ -41,6 +41,12 @@
 					<span>{n.author} · {relativeTime(n.date, now)}</span>
 					<a href={n.htmlUrl} target="_blank" rel="noopener">reply</a>
 				</p>
+				{#each n.replies as r (r.id)}
+					<div class="reply">
+						<p class="bubble-body">{r.text}</p>
+						<p class="bubble-meta"><span>{r.author} · {relativeTime(r.date, now)}</span></p>
+					</div>
+				{/each}
 			</li>
 		{:else}
 			<li class="note">{error ? '' : 'No notes yet. Write the first one below.'}</li>

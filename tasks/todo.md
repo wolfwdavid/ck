@@ -58,3 +58,13 @@
 - The working-on project is the project label on the newest open issue that also carries `working-on`; closing an issue removes it from the log.
 - Only issues from the repo owner, members or collaborators are shown, so strangers cannot post to the dashboard.
 - One extra unauthenticated GitHub request per refresh; the log shows the newest 30 open notes.
+
+## Replies in the project log (2026-11-11)
+- [x] tools/reply.mjs + .github/workflows/reply.yml: a new note or a comment from someone with repo access gets an automatic reply in the thread
+- [x] Dashboard shows thread replies under each note (one more GitHub request per refresh)
+- [x] npm run check clean, npm test green (34)
+- [ ] Owner: add the `ANTHROPIC_API_KEY` repository secret, then post a note to test the reply end to end
+
+### Review
+- The reply job only runs for the owner, members and collaborators; comments from anyone else are neither answered nor sent to the model.
+- The bot can only post comments. Labels and closing notes stay manual.

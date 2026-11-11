@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { newNoteUrl, parseNotes, workingOn } from './notes';
+import { attachReplies, newNoteUrl, parseNotes, workingOn } from './notes';
 
 const issue = (over: Record<string, unknown>) => ({
 	number: 1,
@@ -26,6 +26,22 @@ describe('parseNotes', () => {
 
 	it('returns nothing for a non-list body', () => {
 		expect(parseNotes({ message: 'Not Found' })).toEqual([]);
+	});
+});
+
+describe('attachReplies', () => {
+	it('adds trusted and bot comments to their note, oldest first', () => {
+		const c = (id: number, issue: number, login: string, assoc: string, body = 'text ' + id) => ({
+			id, body, user: { login }, author_association: assoc, created_at: '2026-11-10T12:00:00Z',
+			issue_url: 'https://api.github.com/repos/wolfwdavid/ck/issues/' + issue
+		});
+		const [n] = attachReplies(parseNotes([issue({})]), [
+			c(4, 1, 'github-actions[bot]', 'NONE'),
+			c(3, 1, 'stranger', 'NONE'),
+			c(2, 99, 'wolfwdavid', 'OWNER'),
+			c(1, 1, 'wolfwdavid', 'OWNER')
+		]);
+		expect(n.replies.map((r) => [r.id, r.author])).toEqual([[1, 'wolfwdavid'], [4, 'CK bot']]);
 	});
 });
 

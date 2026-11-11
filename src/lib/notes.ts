@@ -1,6 +1,8 @@
 import { fetchCached, rec, s } from './github';
 import { DASHBOARD_REPO, projects } from './projects';
 
+export type Reply = { id: number; author: string; text: string; date: string };
+
 export type Note = {
 	id: number;
 	text: string;
@@ -10,9 +12,11 @@ export type Note = {
 	htmlUrl: string;
 	slug: string | null;
 	working: boolean;
+	replies: Reply[];
 };
 
 export const WORKING = 'working-on';
+export const BOT = 'github-actions[bot]';
 
 // Anyone can open an issue on a public repo; only people with repo access get onto the dashboard.
 const TRUSTED = new Set(['OWNER', 'MEMBER', 'COLLABORATOR']);
@@ -34,8 +38,24 @@ export function parseNotes(body: unknown): Note[] {
 			date: s(i.created_at),
 			htmlUrl: s(i.html_url),
 			slug: labels.find((l) => slugs.has(l)) ?? null,
-			working: labels.includes(WORKING)
+			working: labels.includes(WORKING),
+			replies: []
 		});
+	}
+	return notes;
+}
+
+/** Adds thread comments (newest first, as the API returns them) to their notes, oldest first. */
+export function attachReplies(notes: Note[], body: unknown): Note[] {
+	if (!Array.isArray(body)) return notes;
+	const byId = new Map(notes.map((n) => [n.id, n]));
+	for (const raw of body) {
+		const c = rec(raw);
+		const author = s(rec(c.user).login);
+		const text = s(c.body).trim();
+		const note = byId.get(Number(s(c.issue_url).split('/').pop()));
+		if (!note || !text || !(author === BOT || TRUSTED.has(s(c.author_association)))) continue;
+		note.replies.unshift({ id: Number(c.id) || 0, author: author === BOT ? 'CK bot' : author, text, date: s(c.created_at) });
 	}
 	return notes;
 }
@@ -53,7 +73,11 @@ export function newNoteUrl(text: string, slug: string, working: boolean): string
 }
 
 export async function fetchNotes(): Promise<Note[]> {
-	// shortcut: newest 30 open notes only, page through if the log outgrows that
-	const res = await fetchCached(`https://api.github.com/repos/${DASHBOARD_REPO}/issues?state=open&per_page=30`);
-	return parseNotes(res.body);
+	// shortcut: newest 30 open notes and newest 50 replies only, page through if the log outgrows that
+	const api = `https://api.github.com/repos/${DASHBOARD_REPO}/issues`;
+	const [issues, comments] = await Promise.all([
+		fetchCached(`${api}?state=open&per_page=30`),
+		fetchCached(`${api}/comments?sort=created&direction=desc&per_page=50`)
+	]);
+	return attachReplies(parseNotes(issues.body), comments.body);
 }
